@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1171113-31266-gi5i2v/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1171113-31266-gi5i2v/package.tgz",
+        "spec": "/tmp/d-1171113-31266-gi5i2v/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1171113-31266-ocuydv"
+    ]
+  ],
+  "_from": "../d-1171113-31266-gi5i2v/package.tgz",
+  "_id": "expose@0.15.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/expose",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1171113-31266-gi5i2v/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1171113-31266-gi5i2v/package.tgz",
+    "spec": "/tmp/d-1171113-31266-gi5i2v/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171113-31266-gi5i2v/package.tgz",
+  "_shasum": "897533e42bf703b5b93eb9302b9c5e259db348bf",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1171113-31266-gi5i2v/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171113-31266-ocuydv",
+  "activationCommands": {
+    "atom-workspace": "expose:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/mrodalgaard/atom-expose/issues"
+  },
+  "consumedServices": {
+    "atom.file-icons": {
+      "versions": {
+        "1.0.0": "consumeFileIcons"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "fuzzaldrin": "^2.1.0",
+    "sortablejs": "^1.3.0"
+  },
+  "description": "Quick tab overview of open files",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mrodalgaard/atom-expose#readme",
+  "keywords": [
+    "tab",
+    "expose",
+    "overview",
+    "group"
+  ],
+  "license": "MIT",
+  "main": "./lib/expose",
+  "name": "expose",
+  "optionalDependencies": {},
+  "readme": "# Atom Tabs Exposé [![Build Status](https://travis-ci.org/mrodalgaard/atom-expose.svg)](https://travis-ci.org/mrodalgaard/atom-expose)\n\nQuick tab overview of open files. Similar to Mac OSX Exposé / Mission Control, Firefox Tab Group, Safari and Chrome Tab Overview, etc.\n\n* Shows active tab, panes and previews.\n* The text editor preview is taken from [Minimap](https://github.com/atom-minimap/minimap) if present, else a suitable file icon is used.\n* Shows file icons in tabs if the [file-icon package](https://github.com/DanBrooker/file-icons) is installed.\n\n![expose-package](https://raw.githubusercontent.com/mrodalgaard/atom-expose/master/screenshots/preview.png)\n\n## Keymaps\n\nToggle expose with <kbd>cmd-shift-e</kbd> on Mac OSX and <kbd>alt-shift-e</kbd> on Linux and Windows.\n\n<kbd>ESC</kbd> and <kbd>Enter</kbd> closes the expose panel.\n\n<kbd>1</kbd> - <kbd>9</kbd> jumps to tabs.\n\n<kbd>←</kbd> and <kbd>→</kbd> select tabs.\n\nJust start typing to search among the shown tabs.\n\n## Tasks\n\n- [x] Basic exposé functionality\n- [x] Activate and close tabs\n- [x] Add tests\n- [x] Add detailed unit tests\n- [x] Tab preview images with fallback\n- [x] Show preview of images\n- [x] Tab icons\n- [x] Custom icons for more view classes\n- [x] Keyboard shortcuts (e.g. numbers)\n- [x] Move / sortable tabs\n- [x] Stay updated on workspace changes\n- [x] Show active tab and navigate with arrows\n- [ ] Show all project files options\n\n> Contributions, bug reports and feature requests are very welcome.\n\n> &nbsp; &nbsp; _- Martin_\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrodalgaard/atom-expose.git"
+  },
+  "version": "0.15.0"
+}

@@ -1,0 +1,14 @@
+{
+ 	"context-menu": {
+    	"atom-text-editor": [{
+			"label": "Highlighte",
+			"submenu": [{
+				"label": "Add color",
+				"command": "highlighte:addColor"
+			},{
+				"label": "Remove color",
+				"command": "highlighte:removeColor"
+			}]
+		}]
+ 	}
+}

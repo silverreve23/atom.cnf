@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118323-16752-1fwrsu3/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118323-16752-1fwrsu3/package.tgz",
+        "spec": "/tmp/d-118323-16752-1fwrsu3/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118323-16752-zby9py"
+    ]
+  ],
+  "_from": "../d-118323-16752-1fwrsu3/package.tgz",
+  "_id": "emmet-simplified@2.6.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/emmet-simplified",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118323-16752-1fwrsu3/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118323-16752-1fwrsu3/package.tgz",
+    "spec": "/tmp/d-118323-16752-1fwrsu3/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118323-16752-1fwrsu3/package.tgz",
+  "_shasum": "66aab0c9cb656464c006de6820d40d0b8e834d81",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118323-16752-1fwrsu3/package.tgz",
+  "_where": "/tmp/apm-install-dir-118323-16752-zby9py",
+  "bugs": {
+    "url": "https://github.com/Yatoom/emmet-atom-simplified/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "emmet": "^1.3.2"
+  },
+  "description": "Emmet Simplified – the simplified essential tool for web developers",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/Yatoom/emmet-atom-simplified#readme",
+  "license": "MIT",
+  "main": "./lib/emmet",
+  "name": "emmet-simplified",
+  "optionalDependencies": {},
+  "readme": "# Simplified Emmet plugin Atom editor\n\nThis is a fork of the [emmet-atom](https://github.com/emmetio/emmet-atom) package, and its main goal is to solve the keybinding conflicts with Atom itself that existed in the original package. The original package overwrote keybindings such as the <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>M</kbd> for toggling the Markdown preview, the <kbd>ctrl</kbd> +  <kbd>,</kbd> for opening the Settings View, and <kbd>tab</kbd> for [Atom's autocomplete](http://blog.atom.io/2015/05/15/new-autocomplete.html)\n\nTo solve these keybinding conflicts, the number of default keybindings is reduced to one, keeping the most important feature: expanding Emmet-style abbreviations. This feature is given a new unique key binding. For example:\n\n```css\nul>li.item$@-3*5\n```\n\nis transformed into\n\n```html\n<ul>\n    <li class=\"item7\"></li>\n    <li class=\"item6\"></li>\n    <li class=\"item5\"></li>\n    <li class=\"item4\"></li>\n    <li class=\"item3\"></li>\n</ul>\n```\nusing the <kbd>shift</kbd> + <kbd>space</kbd> key combination.\n\nThis plugin will occasionally be synced with its upstream repository when new updates arrive. Furthermore, as a bonus, emmet expanding can also be triggered inside files with PHP, JS and JSX files. For JSX files, the package `language-babel` must be installed too, to make Atom recognize `.jsx` files.\n\nAll functionality of the emmet-atom package is still here, which means that you have the freedom to manually add any other Emmet triggers you want. To do so, go to _Edit_ > _Keymap..._ (or _Settings_ > _Keybindings_ > _your keymap file_) and refer to the [original default emmet-atom keymap](https://github.com/emmetio/emmet-atom/blob/master/keymaps/emmet.cson) for a complete list of commands.\n\nNote that you could also just enable emmet expanding everywhere, by opening your keymap (_Edit > Open Your Keymap_) and adding the following piece of text:\n\n```\n'atom-text-editor:not([mini])':\n   'shift-space': 'emmet:expand-abbreviation-with-tab'\n```\n\n### Installation\nIn Atom, open Preferences > Packages, search for the `emmet-simplified` package. Once found, click install to install package. Alternatively, you could run `apm install emmet-simplified`.\n\n### Manual installation\n\nYou can install the latest emmet-simplified version manually from console:\n\n```bash\ncd ~/.atom/packages\ngit clone https://github.com/Yatoom/emmet-atom-simplified emmet-simplified\ncd emmet-simplified\nnpm install\n```\n\nThen restart Atom editor.\n\n## Features:\n\n* Expand abbreviations with <kbd>shift</kbd> + <kbd>space</kbd>.\n\n## Default Keybindings\n\nYou can disable these in Preferences > Emmet.\n\nCommand | Darwin | Linux/Windows\n------- | ------ | -------------\nExpand Abbreviation | <kbd>shift</kbd> + <kbd>space</kbd> | <kbd>shift</kbd> + <kbd>space</kbd>\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yatoom/emmet-atom-simplified.git"
+  },
+  "version": "2.6.0"
+}

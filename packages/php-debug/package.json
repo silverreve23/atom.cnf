@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1171113-31266-oimt0n/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1171113-31266-oimt0n/package.tgz",
+        "spec": "/tmp/d-1171113-31266-oimt0n/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1171113-31266-ednxv7"
+    ]
+  ],
+  "_from": "../d-1171113-31266-oimt0n/package.tgz",
+  "_id": "php-debug@0.2.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/php-debug",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1171113-31266-oimt0n/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1171113-31266-oimt0n/package.tgz",
+    "spec": "/tmp/d-1171113-31266-oimt0n/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171113-31266-oimt0n/package.tgz",
+  "_shasum": "5d072d9575bfa7c8c3f984750376f7ce971c6f74",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1171113-31266-oimt0n/package.tgz",
+  "_where": "/tmp/apm-install-dir-1171113-31266-ednxv7",
+  "bugs": {
+    "url": "https://github.com/gwomacks/php-debug/issues"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "event-kit": "^1.0.3",
+    "interact.js": "^1.2.5",
+    "multimatch": "^2.1.0",
+    "q": "^1.1.2",
+    "xml2js": ">= 0.4.6 < 0.5"
+  },
+  "description": "A package for the Atom Text Editor for debugging PHP code using the XDebug extension",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/gwomacks/php-debug#readme",
+  "license": "MIT",
+  "main": "./lib/php-debug",
+  "name": "php-debug",
+  "optionalDependencies": {},
+  "readme": "# Atom PHP Debugging Package\n\nDebug PHP code using the [Xdebug PHP Extension](http://xdebug.org/).\n\n# Features\n- Add Breakpoints\n- Step through debugging (Over, In, Out)\n- Stack and Context views\n- Add Watchpoints to inspect current values of variables\n\nThis is currently an alpha release, and still in active development.\n\n![](https://raw.githubusercontent.com/gwomacks/php-debug/master/screenshot.png)\n\n# Getting Started\n\n## Install Xdebug ##\nYou may already have Xdebug installed. Check the results of the [phpinfo function](http://php.net/manual/en/function.phpinfo.php) for xdebug information.\nIf no xdebug section exists, you likely need to install this. *nix users can likely find it within their package manager of choice.\nAlternative installation or compiling instructions are available [here](http://xdebug.org/docs/install).\n\n## Setting up Xdebug ##\n\n```\nxdebug.remote_enable=1\nxdebug.remote_host=127.0.0.1\nxdebug.remote_connect_back=1    # Not safe for production servers\nxdebug.remote_port=9000\nxdebug.remote_handler=dbgp\nxdebug.remote_mode=req\nxdebug.remote_autostart=true\n```\n\nWith these settings, PHP will connect to your editor for every script it executes.\nThe alternative is to switch xdebug.remote_autostart to false, and install an Xdebug helper extension for your browser of choice, such as:\n - [The easiest Xdebug](https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/) for Mozilla Firefox\n - [Xdebug Helper](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc) for Google Chrome\n\nThese browser extensions will give you a button within your browser to enable/disable Xdebug. The extensions might have configuration options for an \"IDE key\" (which is used for an XDEBUG_SESSION cookie). The IDE key for Atom with PHP Debug is \"xdebug-atom\".\n\nIt is also possible to run a php script from the command line with Xdebug enabled.\nYou can find more information on this at the Xdebug documentation for [Starting The Debugger](http://xdebug.org/docs/remote#starting).\nSee can find a complete list and explanation of Xdebug settings [here](http://xdebug.org/docs/all_settings).\n\n## Start Debugging ##\n\nTo begin debugging:\n\n1. Open up your PHP file in atom\n2. Add a breakpoint:\n\n  Move the cursor to a line you want to break on and set a breakpoint by pressing `Alt+F9`, selecting Toggle Breakpoint from the Command Palette (`ctrl+shift+p`)or with the php-debug menu (`Packages -> php-debug->Toggle Breakpoint`).\n  This will highlight the line number green, to indicate the presence of a breakpoint.\n  \n3. Open the debug view by pressing `ctrl+alt+d`, selecting 'Toggle Debugging' from the Command Palette or php-debug menu.\n4. Start the script with Xdebug enabled. If everything is setup correctly, the entire line of the breakpoint will be highlighted in green, indicating the current line of the script.\n\nIf everything worked correctly, you can now use the various buttons/commands to step through the script.\n\n# Settings\n\nPut the following in your config.cson from File -> Config...\n```cson\n\"php-debug\":\n  {\n    ServerPort: 9000\n    ServerAddress: \"127.0.0.1\"\n    PathMaps: [\n      \"remotepath;localpath\"\n      \"/base/path/on/remote/system;C:\\\\base\\\\path\\\\on\\\\local\\\\system\"\n    ]\n  }\n  ```\nBe sure to indent it under \"*\"\n\n### Server Port ###\nThis is the port that the atom client will listen on.\nDefaults to 9000\n\n### Server Address ###\nThis is the address that the atom client will listen on.\nDefaults to 127.0.0.1\n\n### Path Maps ###\nIf debugging code that resides on a remote machine, use pathmaps to map a path\non the remote machine to a path on the local machine.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwomacks/php-debug.git"
+  },
+  "version": "0.2.6"
+}
