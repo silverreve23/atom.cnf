@@ -33,7 +33,7 @@ class ShowTodoView extends ScrollView
           @div class: 'btn-group', =>
             @button outlet: 'scopeButton', class: 'btn'
             @button outlet: 'optionsButton', class: 'btn icon-gear'
-            @button outlet: 'saveAsButton', class: 'btn icon-cloud-download'
+            @button outlet: 'exportButton', class: 'btn icon-cloud-download'
             @button outlet: 'refreshButton', class: 'btn icon-sync'
 
       @div class: 'input-block todo-info-block', =>
@@ -54,9 +54,9 @@ class ShowTodoView extends ScrollView
   initialize: ->
     @disposables = new CompositeDisposable
     @handleEvents()
-    @collection.search()
     @setScopeButtonState(@collection.getSearchScope())
 
+    @onlySearchWhenVisible = true
     @notificationOptions =
       detail: 'Atom todo-show package'
       dismissable: true
@@ -66,23 +66,17 @@ class ShowTodoView extends ScrollView
 
     @disposables.add atom.tooltips.add @scopeButton, title: "What to Search"
     @disposables.add atom.tooltips.add @optionsButton, title: "Show Todo Options"
-    @disposables.add atom.tooltips.add @saveAsButton, title: "Save Todos to File"
+    @disposables.add atom.tooltips.add @exportButton, title: "Export Todos"
     @disposables.add atom.tooltips.add @refreshButton, title: "Refresh Todos"
 
   handleEvents: ->
     @disposables.add atom.commands.add @element,
-      'core:save-as': (event) =>
+      'core:export': (event) =>
         event.stopPropagation()
-        @saveAs()
+        @export()
       'core:refresh': (event) =>
         event.stopPropagation()
-        @collection.search()
-
-    # Persist pane size by saving to local storage
-    pane = atom.workspace.getActivePane()
-    @restorePaneFlex(pane) if atom.config.get('todo-show.rememberViewSize')
-    @disposables.add pane.observeFlexScale (flexScale) =>
-      @savePaneFlex(flexScale)
+        @search(true)
 
     @disposables.add @collection.onDidStartSearch @startLoading
     @disposables.add @collection.onDidFinishSearch @stopLoading
@@ -93,7 +87,7 @@ class ShowTodoView extends ScrollView
 
     @disposables.add @collection.onDidChangeSearchScope (scope) =>
       @setScopeButtonState(scope)
-      @collection.search()
+      @search(true)
 
     @disposables.add @collection.onDidSearchPaths (nPaths) =>
       @searchCount.text "#{nPaths} paths searched..."
@@ -101,16 +95,17 @@ class ShowTodoView extends ScrollView
     @disposables.add atom.workspace.onDidChangeActivePaneItem (item) =>
       if @collection.setActiveProject(item?.getPath?()) or
       (item?.constructor.name is 'TextEditor' and @collection.scope is 'active')
-        @collection.search()
+        @search()
 
     @disposables.add atom.workspace.onDidAddTextEditor ({textEditor}) =>
-      @collection.search() if @collection.scope is 'open'
+      @search() if @collection.scope is 'open'
 
     @disposables.add atom.workspace.onDidDestroyPaneItem ({item}) =>
-      @collection.search() if @collection.scope is 'open'
+      @search() if @collection.scope is 'open'
 
     @disposables.add atom.workspace.observeTextEditors (editor) =>
-      @disposables.add editor.onDidSave => @collection.search()
+      @disposables.add editor.onDidSave =>
+        @search()
 
     @filterEditorView.getModel().onDidStopChanging =>
       @filter() if @firstTimeFilter
@@ -118,29 +113,34 @@ class ShowTodoView extends ScrollView
 
     @scopeButton.on 'click', @toggleSearchScope
     @optionsButton.on 'click', @toggleOptions
-    @saveAsButton.on 'click', @saveAs
-    @refreshButton.on 'click', => @collection.search()
+    @exportButton.on 'click', @export
+    @refreshButton.on 'click', => @search(true)
 
   destroy: ->
     @collection.cancelSearch()
     @disposables.dispose()
     @detach()
 
-  savePaneFlex: (flex) ->
-    localStorage.setItem 'todo-show.flex', flex
-
-  restorePaneFlex: (pane) ->
-    flex = localStorage.getItem 'todo-show.flex'
-    pane.setFlexScale parseFloat(flex) if flex
+  serialize: ->
+    deserializer: 'todo-show/todo-view'
+    scope: @collection.scope
+    customPath: @collection.getCustomPath()
 
   getTitle: -> "Todo Show"
   getIconName: -> "checklist"
   getURI: -> @uri
+  getDefaultLocation: -> 'right'
+  getAllowedLocations: -> ['left', 'right', 'bottom']
   getProjectName: -> @collection.getActiveProjectName()
   getProjectPath: -> @collection.getActiveProject()
+
   getTodos: -> @collection.getTodos()
   getTodosCount: -> @collection.getTodosCount()
   isSearching: -> @collection.getState()
+  search: (force = false) ->
+    if @onlySearchWhenVisible
+      return unless atom.workspace.paneContainerForItem(this)?.isVisible()
+    @collection.search(force)
 
   startLoading: =>
     @todoLoading.show()
@@ -169,6 +169,8 @@ class ShowTodoView extends ScrollView
         "in open files"
       when 'project'
         "in project <code>#{@getProjectName()}</code>"
+      when 'custom'
+        "in <code>#{@collection.customPath}</code>"
       else
         "in workspace"
 
@@ -178,16 +180,18 @@ class ShowTodoView extends ScrollView
   showWarning: (message = '') ->
     atom.notifications.addWarning message.toString(), @notificationOptions
 
-  saveAs: =>
+  export: =>
     return if @isSearching()
 
     filePath = "#{@getProjectName() or 'todos'}.md"
     if projectPath = @getProjectPath()
       filePath = path.join(projectPath, filePath)
 
-    if outputFilePath = atom.showSaveDialogSync(filePath.toLowerCase())
-      fs.writeFileSync(outputFilePath, @collection.getMarkdown())
-      atom.workspace.open(outputFilePath)
+    # Do not override if default file path already exists
+    filePath = undefined if fs.existsSync(filePath)
+
+    atom.workspace.open(filePath).then (textEditor) =>
+      textEditor.setText(@collection.getMarkdown())
 
   toggleSearchScope: =>
     scope = @collection.toggleSearchScope()
@@ -195,10 +199,11 @@ class ShowTodoView extends ScrollView
 
   setScopeButtonState: (state) =>
     switch state
-      when 'workspace' then @scopeButton.text 'Workspace'
       when 'project' then @scopeButton.text 'Project'
       when 'open' then @scopeButton.text 'Open Files'
       when 'active' then @scopeButton.text 'Active File'
+      when 'custom' then @scopeButton.text 'Custom'
+      else @scopeButton.text 'Workspace'
 
   toggleOptions: =>
     unless @todoOptions

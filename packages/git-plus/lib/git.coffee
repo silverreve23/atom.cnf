@@ -29,7 +29,7 @@ _prettifyDiff = (data) ->
 getRepoForCurrentFile = ->
   new Promise (resolve, reject) ->
     project = atom.project
-    path = atom.workspace.getActiveTextEditor()?.getPath()
+    path = atom.workspace.getCenter().getActiveTextEditor()?.getPath()
     directory = project.getDirectories().filter((d) -> d.contains(path))[0]
     if directory?
       project.repositoryForDirectory(directory).then (repo) ->
@@ -142,7 +142,7 @@ module.exports = git =
           .map(atom.project.repositoryForDirectory.bind(atom.project))
 
         Promise.all(repoPromises).then (repos) ->
-          repos.forEach (repo) ->
+          repos.filter(Boolean).forEach (repo) ->
             directory = new Directory(repo.getWorkingDirectory())
             if repo? and directory.contains(path) or directory.getPath() is path
               submodule = repo?.repo.submoduleForPath(path)

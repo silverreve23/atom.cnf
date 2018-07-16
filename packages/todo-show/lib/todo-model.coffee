@@ -63,10 +63,10 @@ class TodoModel
     matchText = @stripCommentEnd(matchText)
 
     # Extract todo tags
-    match.tags = (while (tag = /\s*#(\w+)[,.]?$/.exec(matchText))
+    match.tags = (while (tag = /\s*#([\w.|]+)[,.]?$/.exec(matchText))
       break if tag.length isnt 2
       matchText = matchText.slice(0, -tag.shift().length)
-      tag.shift()
+      tag.shift().trim().replace(/[\.,]\s*$/, '')
     ).sort().join(', ')
 
     # Use text before todo if no content after
@@ -90,7 +90,7 @@ class TodoModel
     relativePath[0] ?= ''
     match.path = relativePath[1] or ''
 
-    if (loc = path.basename(match.loc)) isnt 'undefined'
+    if (match.loc and loc = path.basename(match.loc)) isnt 'undefined'
       match.file = loc
     else
       match.file = 'untitled'

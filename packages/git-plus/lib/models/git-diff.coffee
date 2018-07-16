@@ -14,7 +14,7 @@ disposables = new CompositeDisposable
 showFile = (filePath) ->
   if atom.config.get('git-plus.general.openInPane')
     splitDirection = atom.config.get('git-plus.general.splitPane')
-    atom.workspace.getActivePane()["split#{splitDirection}"]()
+    atom.workspace.getCenter().getActivePane()["split#{splitDirection}"]()
   atom.workspace.open(filePath)
 
 prepFile = (text, filePath) ->
@@ -26,7 +26,7 @@ prepFile = (text, filePath) ->
         if err then reject err else resolve true
 
 splitDiff = (repo, pathToFile) ->
-  atom.workspace.open(pathToFile, {
+  atom.workspace.open(Path.join(repo.getWorkingDirectory(),pathToFile), {
     split: 'left',
     activatePane: false,
     activateItem: true,

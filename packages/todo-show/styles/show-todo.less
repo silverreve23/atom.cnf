@@ -5,7 +5,7 @@
   @todo-color-light: lighten(@todo-color, 5%);
 
   .todo-font {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
   }
 
@@ -32,6 +32,7 @@
       .btn-group {
         display: flex;
         flex: 1 1 220px;
+        min-height: 28px;
 
         .btn {
           flex: 1 1 @item-width;
@@ -60,28 +61,36 @@
   .todo-options {
     border: 2px solid @todo-color-light;
     margin: @component-padding / 2 @component-padding;
-    padding: 0 @component-padding;
+    padding: 0 @component-padding / 2 @component-padding / 2;
 
     .option {
       display: flex;
       align-items: center;
       & > h2 {
         .todo-font;
-        flex: 1 1 120px;
+        flex: 1 0 80px;
       }
       & > div {
         word-wrap: break-word;
-        word-break: break-all;
+        word-break: break-word;
+        overflow: hidden;
         line-height: 18px;
         flex: 100;
+      }
+      .checkbox {
+        margin-bottom: @component-padding / 2;
+      }
+
+      .items-on-table, .items-off-table {
+        min-height: 20px;
       }
     }
 
     .items-on-table, .items-off-table {
       .badge {
         .todo-font;
-        width: 80px;
-        margin: 5px 10px 5px 0;
+        width: 56px;
+        margin: @component-padding / 4;
         cursor: move;
       }
 
@@ -112,12 +121,15 @@
     }
 
     th, td {
-      padding: 10px 6px;
+      padding: 6px;
       word-break: break-word;
       cursor: pointer;
     }
 
     th {
+      resize: both;
+      overflow: auto;
+
       .todo-font;
       min-width: 75px;
 

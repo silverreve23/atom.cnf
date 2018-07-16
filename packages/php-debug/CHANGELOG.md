@@ -1,3 +1,50 @@
+## 0.3.5
+* Fix issue where turning off multiple sessions wasn't working
+* Fix several issues where pathmaps weren't functioning correctly
+* Add ability to ignore pathmap files by setting the local path to "?"
+* Misc bug Fixes
+* Add configuration to have pathmap searching ignore certain directories
+
+## 0.3.4
+* Even more parser fixes
+* Feature: Ability to ignore paths/files via pathmap setting where the local side is set to "!"
+* Feature: New configuration option "Allow for multiple debug sessions at once" to disable/enable multi session support
+* Feature: New configuration option "Automatically scan projects in Atom to try and find path maps"
+* Feature: New configuration option "Continue to listen for debug sessions even if the debugger windows are all closed"
+* Breakpoints now print info to the PHP-Debug console
+* Fix missing code for atom commands
+* Update to require version 1.0.3 of atom-debug-ui
+
+## 0.3.3
+* Additional parser fixes
+* Additional debugging functionality to the parser
+
+## 0.3.2
+* Fix typo in fix for 0.3.1 parser
+* Fix messages in config [thanks PHLAK]
+
+## 0.3.1
+* Fix multiple issues with the parser
+* Fix typo for notifications
+* Fix check for notification installation prompt
+
+## 0.3.0
+* Almost a complete rewrite
+* Utilize atom-debug-ui package
+* UTF-8 Support for member names and data
+* Support for multiple debug sessions/instances
+* New pathmaps functionality, old style is replaced
+* Better status messages
+* More options for UI tweeks
+
+* Via atom-debug-ui: A huge number of UI cleanups
+* Via atom-debug-ui: Support for Atom dock functionality
+* Via atom-debug-ui: Floating/Overlay Actionbar
+* Via atom-debug-ui: Better access to settings for breakpoints
+* Via atom-debug-ui: Better highlighting for variables
+* Via atom-debug-ui: Better status messages
+* Via atom-debug-ui: Better console support
+
 ## 0.2.6
 * Fix bug(s) with new socket binding code, should fix Atom freezes
 * Fix for scrollbar styling [thanks pictus]

@@ -20,7 +20,7 @@ class PathStrategy extends Strategy {
 	registerResource(resource){
 		if(super.registerResource(resource)){
 			const disposables = this.resourceEvents.get(resource);
-			disposables.add(resource.onDidMove(paths => this.check(resource, false)));
+			disposables.add(resource.onDidMove(() => this.check(resource, false)));
 			this.resourceEvents.set(resource, disposables);
 			return true;
 		}
@@ -65,7 +65,7 @@ class PathStrategy extends Strategy {
 	filter(path){
 		return path
 			.replace(/~(?:orig|previous)$/, "")
-			.replace(/^([^.]*\.[^.]+)\.(?:inc?|dist|tm?pl|te?mp)$/i, "$1");
+			.replace(/^([^.]*\.[^.]+)\.(?:inc?|dist|tm?pl|te?mp|ti?dy)$/i, "$1");
 	}
 }
 

@@ -46,16 +46,17 @@ diffFiles = (previousFiles, currentFiles) ->
   previousFiles.filter (p) -> p.path in currentPaths is false
 
 parse = (prevCommit) ->
-  lines = prevCommit.split(/\n/).filter (line) -> line isnt '/n'
-  statusRegex = /(([ MADRCU?!])\s(.*))/
-  indexOfStatus = lines.findIndex (line) -> statusRegex.test line
+  statusRegex = /\n{2,}((?:(?::\w{6} \w{6}(?: \w{7}\.{3}){2} [ MADRCU?!]\s+.+?\n?))*)$/
+  firstSpliting = statusRegex.exec prevCommit
 
-  prevMessage = lines.splice 0, indexOfStatus - 1
-  prevMessage.reverse()
-  prevMessage.shift() if prevMessage[0] is ''
-  prevMessage.reverse()
-  prevChangedFiles = lines.filter (line) -> line isnt ''
-  message = prevMessage.join('\n')
+  if firstSpliting?
+    message = prevCommit.substring 0, firstSpliting.index
+
+    replacerRegex = /^:\w{6} \w{6}(?: \w{7}\.{3}){2} ([ MADRCU?!].+)$/gm
+    prevChangedFiles = (firstSpliting[1].trim().replace replacerRegex, "$1").split '\n'
+  else
+    message = prevCommit.trim()
+    prevChangedFiles = []
   {message, prevChangedFiles}
 
 cleanupUnstagedText = (status) ->
@@ -95,7 +96,7 @@ showFile = (filePath) ->
   if not commitEditor
     if atom.config.get('git-plus.general.openInPane')
       splitDirection = atom.config.get('git-plus.general.splitPane')
-      atom.workspace.getActivePane()["split#{splitDirection}"]()
+      atom.workspace.getCenter().getActivePane()["split#{splitDirection}"]()
     atom.workspace.open filePath
   else
     if atom.config.get('git-plus.general.openInPane')
@@ -105,10 +106,7 @@ showFile = (filePath) ->
     Promise.resolve(commitEditor)
 
 destroyCommitEditor = (filePath) ->
-  if atom.config.get('git-plus.general.openInPane')
-    atom.workspace.paneForURI(filePath)?.destroy()
-  else
-    atom.workspace.paneForURI(filePath).itemForURI(filePath)?.destroy()
+  atom.workspace.paneForURI(filePath).itemForURI(filePath)?.destroy()
 
 commit = (directory, filePath) ->
   args = ['commit', '--amend', '--cleanup=strip', "--file=#{filePath}"]
@@ -130,7 +128,7 @@ module.exports = (repo) ->
   filePath = Path.join(repo.getPath(), 'COMMIT_EDITMSG')
   cwd = repo.getWorkingDirectory()
   commentChar = git.getConfig(repo, 'core.commentchar') ? '#'
-  git.cmd(['whatchanged', '-1', '--name-status', '--format=%B'], {cwd})
+  git.cmd(['whatchanged', '-1', '--format=%B'], {cwd})
   .then (amend) -> parse amend
   .then ({message, prevChangedFiles}) ->
     getStagedFiles(repo)

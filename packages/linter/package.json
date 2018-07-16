@@ -2,40 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117523-16082-12nk7ov/package.tgz",
+        "raw": "/tmp/d-118616-28438-72npyr.i9ku01wcdi/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117523-16082-12nk7ov/package.tgz",
-        "spec": "/tmp/d-117523-16082-12nk7ov/package.tgz",
+        "rawSpec": "/tmp/d-118616-28438-72npyr.i9ku01wcdi/package.tgz",
+        "spec": "/tmp/d-118616-28438-72npyr.i9ku01wcdi/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117523-16082-1lsjq53"
+      "/tmp/apm-install-dir-118616-28438-bywtsf.dg79dd9529"
     ]
   ],
-  "_from": "../d-117523-16082-12nk7ov/package.tgz",
+  "_from": "../d-118616-28438-72npyr.i9ku01wcdi/package.tgz",
   "_id": "linter@2.2.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/linter",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117523-16082-12nk7ov/package.tgz",
+    "raw": "/tmp/d-118616-28438-72npyr.i9ku01wcdi/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117523-16082-12nk7ov/package.tgz",
-    "spec": "/tmp/d-117523-16082-12nk7ov/package.tgz",
+    "rawSpec": "/tmp/d-118616-28438-72npyr.i9ku01wcdi/package.tgz",
+    "spec": "/tmp/d-118616-28438-72npyr.i9ku01wcdi/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117523-16082-12nk7ov/package.tgz",
+  "_resolved": "file:../d-118616-28438-72npyr.i9ku01wcdi/package.tgz",
   "_shasum": "58c53b67851cb486e4d3d1d033438122fbf82104",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117523-16082-12nk7ov/package.tgz",
-  "_where": "/tmp/apm-install-dir-117523-16082-1lsjq53",
+  "_spec": "/tmp/d-118616-28438-72npyr.i9ku01wcdi/package.tgz",
+  "_where": "/tmp/apm-install-dir-118616-28438-bywtsf.dg79dd9529",
   "author": {
     "name": "steelbrain"
   },

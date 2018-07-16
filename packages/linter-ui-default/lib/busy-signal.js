@@ -4,21 +4,25 @@ import { CompositeDisposable } from 'atom'
 import type { Linter } from './types'
 
 class BusySignal {
-  provider: ?Object;
+  provider: ?Object
   executing: Set<{
     linter: Linter,
     filePath: ?string,
-  }>;
-  useBusySignal: boolean;
-  subscriptions: CompositeDisposable;
+  }>
+  providerTitles: Set<string>
+  useBusySignal: boolean
+  subscriptions: CompositeDisposable
 
   constructor() {
     this.executing = new Set()
+    this.providerTitles = new Set()
     this.subscriptions = new CompositeDisposable()
 
-    this.subscriptions.add(atom.config.observe('linter-ui-default.useBusySignal', (useBusySignal) => {
-      this.useBusySignal = useBusySignal
-    }))
+    this.subscriptions.add(
+      atom.config.observe('linter-ui-default.useBusySignal', useBusySignal => {
+        this.useBusySignal = useBusySignal
+      }),
+    )
   }
   attach(registry: Object) {
     this.provider = registry.create()
@@ -27,22 +31,39 @@ class BusySignal {
   update() {
     const provider = this.provider
     if (!provider) return
-    provider.clear()
     if (!this.useBusySignal) return
     const fileMap: Map<?string, Array<string>> = new Map()
+    const currentTitles = new Set()
 
     for (const { filePath, linter } of this.executing) {
       let names = fileMap.get(filePath)
       if (!names) {
-        fileMap.set(filePath, names = [])
+        fileMap.set(filePath, (names = []))
       }
       names.push(linter.name)
     }
 
     for (const [filePath, names] of fileMap) {
       const path = filePath ? ` on ${atom.project.relativizePath(filePath)[1]}` : ''
-      provider.add(`${names.join(', ')}${path}`)
+      names.forEach(name => {
+        const title = `${name}${path}`
+        currentTitles.add(title)
+        if (!this.providerTitles.has(title)) {
+          // Add the title since it hasn't been seen before
+          this.providerTitles.add(title)
+          provider.add(title)
+        }
+      })
     }
+
+    // Remove any titles no longer active
+    this.providerTitles.forEach(title => {
+      if (!currentTitles.has(title)) {
+        provider.remove(title)
+        this.providerTitles.delete(title)
+      }
+    })
+
     fileMap.clear()
   }
   getExecuting(linter: Linter, filePath: ?string): ?Object {
@@ -71,6 +92,7 @@ class BusySignal {
     if (this.provider) {
       this.provider.clear()
     }
+    this.providerTitles.clear()
     this.executing.clear()
     this.subscriptions.dispose()
   }

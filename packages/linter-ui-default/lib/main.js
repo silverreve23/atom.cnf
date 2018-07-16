@@ -1,28 +1,28 @@
 /* @flow */
 
 import { CompositeDisposable } from 'atom'
+import Panel from './panel'
 import Commands from './commands'
 import StatusBar from './status-bar'
 import BusySignal from './busy-signal'
 import Intentions from './intentions'
 import type { Linter, LinterMessage, MessagesPatch } from './types'
 
-let Panel
 let Editors
 let TreeView
 
 class LinterUI {
-  name: string;
-  panel: ?Panel;
-  signal: BusySignal;
-  editors: ?Editors;
-  treeview: TreeView;
-  commands: Commands;
-  messages: Array<LinterMessage>;
-  statusBar: StatusBar;
-  intentions: Intentions;
-  subscriptions: CompositeDisposable;
-  idleCallbacks: Set<number>;
+  name: string
+  panel: Panel
+  signal: BusySignal
+  editors: ?Editors
+  treeview: TreeView
+  commands: Commands
+  messages: Array<LinterMessage>
+  statusBar: StatusBar
+  intentions: Intentions
+  subscriptions: CompositeDisposable
+  idleCallbacks: Set<number>
 
   constructor() {
     this.name = 'Linter'
@@ -38,38 +38,38 @@ class LinterUI {
     this.subscriptions.add(this.commands)
     this.subscriptions.add(this.statusBar)
 
-    const obsShowPanelCB = window.requestIdleCallback(function observeShowPanel() {
-      this.idleCallbacks.delete(obsShowPanelCB)
-      if (!Panel) {
-        Panel = require('./panel')
-      }
-      this.subscriptions.add(atom.config.observe('linter-ui-default.showPanel', (showPanel) => {
-        if (showPanel && !this.panel) {
-          this.panel = new Panel()
-          this.panel.update(this.messages)
-        } else if (!showPanel && this.panel) {
-          this.panel.dispose()
-          this.panel = null
-        }
-      }))
-    }.bind(this))
+    const obsShowPanelCB = window.requestIdleCallback(
+      function observeShowPanel() {
+        this.idleCallbacks.delete(obsShowPanelCB)
+        this.panel = new Panel()
+        this.panel.update(this.messages)
+      }.bind(this),
+    )
     this.idleCallbacks.add(obsShowPanelCB)
 
-    const obsShowDecorationsCB = window.requestIdleCallback(function observeShowDecorations() {
-      this.idleCallbacks.delete(obsShowDecorationsCB)
-      if (!Editors) {
-        Editors = require('./editors')
-      }
-      this.subscriptions.add(atom.config.observe('linter-ui-default.showDecorations', (showDecorations) => {
-        if (showDecorations && !this.editors) {
-          this.editors = new Editors()
-          this.editors.update({ added: this.messages, removed: [], messages: this.messages })
-        } else if (!showDecorations && this.editors) {
-          this.editors.dispose()
-          this.editors = null
+    const obsShowDecorationsCB = window.requestIdleCallback(
+      function observeShowDecorations() {
+        this.idleCallbacks.delete(obsShowDecorationsCB)
+        if (!Editors) {
+          Editors = require('./editors')
         }
-      }))
-    }.bind(this))
+        this.subscriptions.add(
+          atom.config.observe('linter-ui-default.showDecorations', showDecorations => {
+            if (showDecorations && !this.editors) {
+              this.editors = new Editors()
+              this.editors.update({
+                added: this.messages,
+                removed: [],
+                messages: this.messages,
+              })
+            } else if (!showDecorations && this.editors) {
+              this.editors.dispose()
+              this.editors = null
+            }
+          }),
+        )
+      }.bind(this),
+    )
     this.idleCallbacks.add(obsShowDecorationsCB)
   }
   render(difference: MessagesPatch) {
@@ -78,7 +78,11 @@ class LinterUI {
     this.messages = difference.messages
     if (editors) {
       if (editors.isFirstRender()) {
-        editors.update({ added: difference.messages, removed: [], messages: difference.messages })
+        editors.update({
+          added: difference.messages,
+          removed: [],
+          messages: difference.messages,
+        })
       } else {
         editors.update(difference)
       }

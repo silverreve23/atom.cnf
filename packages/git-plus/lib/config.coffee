@@ -43,14 +43,8 @@ module.exports =
         default: "Down"
         description: "Where should new panes go?"
         enum: ["Up", "Right", "Down", "Left"]
-      messageTimeout:
-        order: 6
-        title: "Output view timeout"
-        type: "integer"
-        default: 5
-        description: "For how many seconds should the output view above the status-bar stay open?"
       showFormat:
-        order: 7
+        order: 6
         title: "Format option for 'Git Show'"
         type: "string"
         default: "full"
@@ -106,14 +100,20 @@ module.exports =
         type: "boolean"
         default: false
         description: "Pull with `--rebase` flag?"
-      pullBeforePush:
+      pullAutostash:
         order: 2
+        title: "Pull AutoStash"
+        type: "boolean"
+        default: false
+        description: "Pull with `--autostash` flag?"
+      pullBeforePush:
+        order: 3
         title: "Pull Before Pushing"
         type: "boolean"
         default: false
         description: "Pull from remote before pushing"
       promptForBranch:
-        order: 3
+        order: 4
         title: "Prompt for branch selection when pulling/pushing"
         type: "boolean"
         default: false

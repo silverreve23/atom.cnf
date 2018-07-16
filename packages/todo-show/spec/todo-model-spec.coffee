@@ -1,30 +1,30 @@
 path = require 'path'
 
 TodoModel = require '../lib/todo-model'
-ShowTodo = require '../lib/show-todo'
 TodoRegex = require '../lib/todo-regex'
+{getConfigSchema} = require './helpers'
 
 sample1Path = path.join(__dirname, 'fixtures/sample1')
 
 describe "Todo Model", ->
-  {match, todoRegex} = []
+  {match, todoRegex, defaultRegex} = []
 
   beforeEach ->
-    atom.project.setPaths [sample1Path]
-    todoRegex = new TodoRegex(
-      ShowTodo.config.findUsingRegex.default
-      ['FIXME', 'TODO']
-    )
+    getConfigSchema (configSchema) ->
+      defaultRegex = configSchema.findUsingRegex.default
+      atom.project.setPaths [sample1Path]
+      todoRegex = new TodoRegex(defaultRegex, ['FIXME', 'TODO'])
 
-    match =
-      all: " TODO: Comment in C #tag1 "
-      loc: "#{atom.project.getPaths()[0]}/sample1/sample.c"
-      regex: todoRegex.regex
-      regexp: todoRegex.regexp
-      position: [
-        [0, 1]
-        [0, 20]
-      ]
+      match =
+        all: " TODO: Comment in C #tag1 "
+        loc: "#{atom.project.getPaths()[0]}/sample1/sample.c"
+        regex: todoRegex.regex
+        regexp: todoRegex.regexp
+        position: [
+          [0, 1]
+          [0, 20]
+        ]
+    waitsFor -> todoRegex isnt undefined
 
   describe "Create todo models", ->
     it "should handle results from workspace scan (also tested in fetchRegexItem)", ->
@@ -225,6 +225,9 @@ describe "Todo Model", ->
       match.text = "#TODO: 123 #tag1."
       expect(new TodoModel(match).tags).toBe 'tag1'
 
+      match.text = "#TODO: 123 #tag2.add3"
+      expect(new TodoModel(match).tags).toBe 'tag2.add3'
+
       match.text = "  TODO: 123 #tag1  "
       model = new TodoModel(match)
       expect(model.tags).toBe 'tag1'
@@ -251,7 +254,7 @@ describe "Todo Model", ->
       expect(model.tags).toBe 'tag1, tag2, tag3'
       expect(model.text).toBe '123'
 
-      match.text = "test #TODO: 123 #tag1, #tag2"
+      match.text = "test #TODO: 123 #tag1, #tag2,"
       expect(new TodoModel(match).tags).toBe 'tag1, tag2'
 
     it "should handle invalid tags", ->
@@ -262,9 +265,6 @@ describe "Todo Model", ->
       expect(new TodoModel(match).tags).toBe ''
 
       match.text = "#TODO: #tag1 todo"
-      expect(new TodoModel(match).tags).toBe ''
-
-      match.text = "#TODO: #tag.123"
       expect(new TodoModel(match).tags).toBe ''
 
       match.text = "#TODO: #tag1 #tag2@"
@@ -335,7 +335,7 @@ describe "Todo Model", ->
       expect(model.get('Type')).toBe 'TODO'
       expect(model.get('Range')).toBe '0,1,0,20'
       expect(model.get('Line')).toBe '1'
-      expect(model.get('Regex')).toBe '/\\b(TODO)[:;.,]?\\d*($|\\s.*$|\\(.*$)/g'
+      expect(model.get('Regex')).toBe defaultRegex.replace('${TODOS}', 'TODO')
       expect(model.get('Path')).toBe 'sample1/sample.c'
       expect(model.get('File')).toBe 'sample.c'
       expect(model.get('Tags')).toBe 'tag1'

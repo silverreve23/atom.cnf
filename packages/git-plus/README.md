@@ -24,7 +24,7 @@ If you are on a Windows machine, I recommend checking out [this thread](https://
 Notifications will appear in a console output above the status bar.
 This view can be toggled by clicking the 'git+' icon in the bottom right of the status bar.
 
-![screenshot](https://dl.dropboxusercontent.com/s/oe3x8wyt6lnmbv7/git%2B.png)
+![screenshot](https://dl.dropboxusercontent.com/s/lla1cba1ycxesdi/status-bar-icon.png.png)
 
 ### Auto-Fetch
 Keeps your local repo bang up to date by automatically fetching from all remotes in the background every minute by default. But this can be set to any interval up to an hour, or disabled if you prefer. A notification can also be set to keep you informed.
@@ -97,7 +97,7 @@ If you would like to use experimental features, enable them in the package setti
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Write tests
 4. Make your changes
-5. Run `apm test`
-6. Commit your changes (`git commit -am 'Add some feature'`)
+5. Run `npm test`
+6. Commit your changes
 7. Push to the branch (`git push origin my-new-feature`)
 8. Create new Pull Request

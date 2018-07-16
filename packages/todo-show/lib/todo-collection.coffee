@@ -82,13 +82,13 @@ class TodoCollection
     if sortAsc2 then comp else -comp
 
   filterTodos: (filter) ->
-    if @filter = filter
-      result = @todos.filter (todo) ->
-        todo.contains(filter)
-    else
-      result = @todos
+    @filter = filter
+    @emitter.emit 'did-filter-todos', @getFilteredTodos()
 
-    @emitter.emit 'did-filter-todos', result
+  getFilteredTodos: ->
+    return @todos unless filter = @filter
+    @todos.filter (todo) ->
+      todo.contains(filter)
 
   getAvailableTableItems: -> @availableItems
   setAvailableTableItems: (@availableItems) ->
@@ -105,6 +105,9 @@ class TodoCollection
       else 'workspace'
     @setSearchScope(scope)
     scope
+
+  getCustomPath: -> @customPath
+  setCustomPath: (@customPath) ->
 
   alreadyExists: (newTodo) ->
     properties = ['range', 'path']
@@ -140,7 +143,7 @@ class TodoCollection
   fetchOpenRegexItem: (todoRegex, activeEditorOnly) ->
     editors = []
     if activeEditorOnly
-      if editor = atom.workspace.getPanes()[0]?.getActiveEditor()
+      if editor = atom.workspace.getActiveTextEditor()
         editors = [editor]
     else
       editors = atom.workspace.getTextEditors()
@@ -167,7 +170,9 @@ class TodoCollection
     # No async operations, so just return a resolved promise
     Promise.resolve()
 
-  search: ->
+  search: (force = false) ->
+    return if !atom.config.get('todo-show.autoRefresh') and !force
+
     @clear()
     @searching = true
     @emitter.emit 'did-start-search'
@@ -198,6 +203,8 @@ class TodoCollection
       @emitter.emit 'did-fail-search', reason
 
   getSearchPaths: ->
+    return [@getCustomPath()] if @scope is 'custom'
+
     ignores = atom.config.get('todo-show.ignoreThesePaths')
     return ['*'] unless ignores?
     if Object.prototype.toString.call(ignores) isnt '[object Array]'
@@ -220,7 +227,8 @@ class TodoCollection
     project if project = atom.project.getPaths()[0]
 
   getActiveProjectName: ->
-    projectName = path.basename(@getActiveProject())
+    return 'no active project' unless project = @getActiveProject()
+    projectName = path.basename(project)
     if projectName is 'undefined' then "no active project" else projectName
 
   setActiveProject: (filePath) ->
@@ -235,7 +243,7 @@ class TodoCollection
 
   getMarkdown: ->
     todosMarkdown = new TodosMarkdown
-    todosMarkdown.markdown @getTodos()
+    todosMarkdown.markdown @getFilteredTodos()
 
   cancelSearch: ->
     @searchPromise?.cancel?()

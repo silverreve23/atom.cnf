@@ -1,0 +1,143 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118610-15700-9ommms.3n47no2yb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118610-15700-9ommms.3n47no2yb9/package.tgz",
+        "spec": "/tmp/d-118610-15700-9ommms.3n47no2yb9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118610-15700-13fdwxm.736hsyk3xr"
+    ]
+  ],
+  "_from": "../d-118610-15700-9ommms.3n47no2yb9/package.tgz",
+  "_id": "atom-debug-ui@1.0.4",
+  "_inCache": true,
+  "_location": "/atom-debug-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118610-15700-9ommms.3n47no2yb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118610-15700-9ommms.3n47no2yb9/package.tgz",
+    "spec": "/tmp/d-118610-15700-9ommms.3n47no2yb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118610-15700-9ommms.3n47no2yb9/package.tgz",
+  "_shasum": "2570395c98f0c6f5863768be69b914865941ce1f",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118610-15700-9ommms.3n47no2yb9/package.tgz",
+  "_where": "/tmp/apm-install-dir-118610-15700-13fdwxm.736hsyk3xr",
+  "bugs": {
+    "url": "https://github.com/cchamplin/atom-debug-ui/issues"
+  },
+  "configSchema": {
+    "gutters": {
+      "type": "object",
+      "properties": {
+        "gutterBreakpointToggle": {
+          "title": "Enable breakpoint markers in the gutter",
+          "default": true,
+          "type": "boolean",
+          "description": "Enables breakpoints to be displayed and toggled via the editor gutter"
+        },
+        "gutterPosition": {
+          "title": "Gutter Position",
+          "default": "Right",
+          "type": "string",
+          "description": "Display the breakpoint gutter to the left or right of the line numbers",
+          "enum": [
+            "Left",
+            "Right"
+          ]
+        }
+      }
+    },
+    "display": {
+      "type": "object",
+      "properties": {
+        "enableActionBar": {
+          "title": "Enable Action Bar",
+          "default": true,
+          "type": "boolean",
+          "description": "Enable an overlay actionbar for debugging"
+        },
+        "activateWindow": {
+          "title": "Activate Atom window after breakpoint is hit",
+          "default": true,
+          "type": "boolean",
+          "description": ""
+        },
+        "autoCloseEndedSessions": {
+          "title": "Automatically close debugging windows after a debug session ends",
+          "default": true,
+          "type": "boolean",
+          "description": "Attempt to automatically close windows after a session ends. This may not apply for the default debugging window"
+        }
+      }
+    }
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "debug-engine": {
+      "versions": {
+        "0.1.0": "consumeDebugEngine"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "auto-bind-inheritance": "^1.0.6",
+    "etch": "^0.12.6",
+    "event-kit": "^1.0.3",
+    "fast-glob": "^2.2.1",
+    "interact.js": "^1.2.5",
+    "jsdoc-to-markdown": "^4.0.1",
+    "multimatch": "^2.1.0",
+    "promise": "^8.0.1",
+    "q": "^1.1.2",
+    "uuid": "3.0.1",
+    "xml2js": ">= 0.4.6 < 0.5"
+  },
+  "description": "A package to provider a user interface for external debugging inside atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "homepage": "https://github.com/cchamplin/atom-debug-ui#readme",
+  "keywords": [
+    "debugging",
+    "debugger",
+    "debug",
+    "xdebug"
+  ],
+  "license": "MIT",
+  "main": "./lib/debug-ui",
+  "name": "atom-debug-ui",
+  "optionalDependencies": {},
+  "providedServices": {
+    "debug-ui": {
+      "versions": {
+        "0.1.0": "provideDebugUIService"
+      }
+    }
+  },
+  "readme": "# Atom Debugging UI Package\n\nProvides a UI interface and basic functionality for building debugging inside Atom.\n\n# Features\n- Watchpoints\n- Watches\n- Breakpoints\n- Floating Action Bar\n- Standard Debugging Dock Panels\n- Service Oriented Architecture\n- Internal Logging functionality\n- Console View\n- Breakpoint Settings\n- Customizable Action Bar\n\n![](https://raw.githubusercontent.com/cchamplin/atom-debug-ui/master/screenshot.gif)\n\n# Getting Started\nThe best place to start will be by looking at existing projects like [PHP-Debug](https://github.com/gwomacks/php-debug) and by reading the documentation under /docs\n\n# Settings\n\n## Gutters ##\n\n### Gutter Breakpoint Toggle ###\nEnabled breakpoints to be displayed and toggled via the editor gutter\n\n### Gutter Position ###\nDisplay the breakpoint gutter to the left or right of the line numbers\n\n## Display ##\n\n### Enable Action Bar ###\nEnable an overlay actionbar for debugging\n\n### Activate Atom window after breakpoint is hit ###\nBrings the Atom window to the foreground when a breakpoint is hit\n\n### Automatically close debugging windows after a debug session ends ###\nAttempt to automatically close windows after a session ends. This may not apply for the default debugging window\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cchamplin/atom-debug-ui.git"
+  },
+  "version": "1.0.4"
+}

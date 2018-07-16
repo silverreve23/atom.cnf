@@ -5,24 +5,29 @@ TodosCollection = require '../lib/todo-collection'
 
 sample1Path = path.join(__dirname, 'fixtures/sample1')
 sample2Path = path.join(__dirname, 'fixtures/sample2')
+showTodoUri = 'atom://todo-show'
+numberOfTodos = 3
 
 describe "Show Todo View", ->
-  [showTodoView, collection] = []
+  [showTodoView, collection, showTodoUri] = []
 
   beforeEach ->
     atom.config.set 'todo-show.findTheseTodos', ['TODO']
     atom.config.set 'todo-show.findUsingRegex', '/\\b(${TODOS}):?\\d*($|\\s.*$)/g'
+    atom.config.set 'todo-show.autoRefresh', true
 
     atom.project.setPaths [sample1Path]
     collection = new TodosCollection
-    uri = 'atom://todo-show/todos'
-    showTodoView = new ShowTodoView(collection, uri)
+    collection.setSearchScope 'workspace'
+    showTodoView = new ShowTodoView(collection, showTodoUri)
+    showTodoView.onlySearchWhenVisible = false
+    showTodoView.search(true)
     waitsFor -> !showTodoView.isSearching()
 
   describe "View properties", ->
     it "has a title, uri, etc.", ->
       expect(showTodoView.getIconName()).toEqual 'checklist'
-      expect(showTodoView.getURI()).toEqual 'atom://todo-show/todos'
+      expect(showTodoView.getURI()).toEqual showTodoUri
       expect(showTodoView.find('.btn-group')).toExist()
 
     it "updates view info", ->
@@ -43,10 +48,10 @@ describe "Show Todo View", ->
     it "updates view info details", ->
       getInfo = -> showTodoView.todoInfo.text()
 
-      collection.setSearchScope('project')
+      collection.setSearchScope 'project'
       waitsFor -> !showTodoView.isSearching()
       runs ->
-        expect(getInfo()).toBe "Found 3 results in project sample1"
+        expect(getInfo()).toBe "Found #{numberOfTodos} results in project sample1"
 
         collection.setSearchScope('open')
         waitsFor -> !showTodoView.isSearching()
@@ -55,34 +60,51 @@ describe "Show Todo View", ->
 
   describe "Automatic update of todos", ->
     it "refreshes on save", ->
-      expect(showTodoView.getTodos()).toHaveLength 3
+      expect(showTodoView.getTodos()).toHaveLength numberOfTodos
 
       waitsForPromise -> atom.workspace.open 'temp.txt'
       runs ->
         editor = atom.workspace.getActiveTextEditor()
         editor.setText("# TODO: Test")
-        editor.save()
-
-        waitsFor -> !showTodoView.isSearching()
+        waitsForPromise -> editor.save()
         runs ->
-          expect(showTodoView.getTodos()).toHaveLength 4
-          editor.setText("")
-          editor.save()
-
           waitsFor -> !showTodoView.isSearching()
           runs ->
-            expect(showTodoView.getTodos()).toHaveLength 3
+            expect(showTodoView.getTodos()).toHaveLength 4
+            editor.setText("")
+            waitsForPromise -> editor.save()
+            runs ->
+              waitsFor -> !showTodoView.isSearching()
+              runs ->
+                expect(showTodoView.getTodos()).toHaveLength numberOfTodos
+
+    it "can stop auto refreshing", ->
+      atom.config.set 'todo-show.autoRefresh', false
+
+      expect(showTodoView.getTodos()).toHaveLength numberOfTodos
+
+      waitsForPromise -> atom.workspace.open 'temp.txt'
+      runs ->
+        editor = atom.workspace.getActiveTextEditor()
+        editor.setText("# TODO: Test")
+        waitsForPromise -> editor.save()
+        runs ->
+          waitsFor -> !showTodoView.isSearching()
+          runs ->
+            expect(showTodoView.getTodos()).toHaveLength numberOfTodos
+            editor.setText("")
+            waitsForPromise -> editor.save()
 
     it "updates on search scope change", ->
       expect(showTodoView.isSearching()).toBe false
       expect(collection.getSearchScope()).toBe 'workspace'
-      expect(showTodoView.getTodos()).toHaveLength 3
+      expect(showTodoView.getTodos()).toHaveLength numberOfTodos
       expect(collection.toggleSearchScope()).toBe 'project'
       expect(showTodoView.isSearching()).toBe true
 
       waitsFor -> !showTodoView.isSearching()
       runs ->
-        expect(showTodoView.getTodos()).toHaveLength 3
+        expect(showTodoView.getTodos()).toHaveLength numberOfTodos
         expect(collection.toggleSearchScope()).toBe 'open'
         expect(showTodoView.isSearching()).toBe true
 
@@ -120,13 +142,13 @@ describe "Show Todo View", ->
               atom.workspace.open path.join(sample1Path, 'sample.c')
             waitsFor -> !showTodoView.isSearching()
             runs ->
-              expect(showTodoView.getTodos()).toHaveLength 3
+              expect(showTodoView.getTodos()).toHaveLength numberOfTodos
 
     it "handles search scope 'open'", ->
       waitsForPromise -> atom.workspace.open 'sample.c'
       waitsFor -> !showTodoView.isSearching()
       runs ->
-        expect(showTodoView.getTodos()).toHaveLength 3
+        expect(showTodoView.getTodos()).toHaveLength numberOfTodos
         collection.setSearchScope 'open'
         expect(showTodoView.isSearching()).toBe true
 
@@ -137,7 +159,7 @@ describe "Show Todo View", ->
           waitsForPromise -> atom.workspace.open 'sample.js'
           waitsFor -> !showTodoView.isSearching()
           runs ->
-            expect(showTodoView.getTodos()).toHaveLength 3
+            expect(showTodoView.getTodos()).toHaveLength numberOfTodos
             atom.workspace.getActivePane().itemAtIndex(0).destroy()
 
             waitsFor -> !showTodoView.isSearching()
@@ -149,7 +171,7 @@ describe "Show Todo View", ->
       waitsForPromise -> atom.workspace.open 'sample.js'
       waitsFor -> !showTodoView.isSearching()
       runs ->
-        expect(showTodoView.getTodos()).toHaveLength 3
+        expect(showTodoView.getTodos()).toHaveLength numberOfTodos
         collection.setSearchScope 'active'
         expect(showTodoView.isSearching()).toBe true
 

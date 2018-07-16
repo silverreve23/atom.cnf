@@ -10,6 +10,8 @@
     tabs:
       compactTabs: true
     ui: {}
+  "atom-package-deps":
+    ignored: []
   "autocomplete-plus":
     autoActivationDelay: 500
   autosave:
@@ -19,6 +21,7 @@
     destroyEmptyPanes: false
     disabledPackages: [
       "symbols-tree-view"
+      "linter"
     ]
     followSymlinks: false
     packagesWithKeymapsDisabled: [
@@ -31,7 +34,7 @@
       "seti-syntax"
     ]
   editor:
-    fontSize: 12
+    fontSize: 16
     lineHeight: 1.7
     softTabs: false
     tabLength: 4
@@ -87,6 +90,8 @@
     currentPanelHeight: "496px"
     currentPanelMode: "bottom"
     currentPanelWidth: "363px"
+    showWelcome: false
+  "seti-syntax": {}
   "symbols-tree-view":
     autoToggle: true
   "tree-view":

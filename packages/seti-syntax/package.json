@@ -2,40 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117217-13077-eivvcp/package.tgz",
+        "raw": "/tmp/d-11866-18793-1uxqyim.fmpk4ndn29/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117217-13077-eivvcp/package.tgz",
-        "spec": "/tmp/d-117217-13077-eivvcp/package.tgz",
+        "rawSpec": "/tmp/d-11866-18793-1uxqyim.fmpk4ndn29/package.tgz",
+        "spec": "/tmp/d-11866-18793-1uxqyim.fmpk4ndn29/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117217-13077-1bpxh3w"
+      "/tmp/apm-install-dir-11866-18793-bcujbu.1ka3v7vi"
     ]
   ],
-  "_from": "../d-117217-13077-eivvcp/package.tgz",
+  "_from": "../d-11866-18793-1uxqyim.fmpk4ndn29/package.tgz",
   "_id": "seti-syntax@1.1.3",
   "_inCache": true,
-  "_installable": true,
   "_location": "/seti-syntax",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117217-13077-eivvcp/package.tgz",
+    "raw": "/tmp/d-11866-18793-1uxqyim.fmpk4ndn29/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117217-13077-eivvcp/package.tgz",
-    "spec": "/tmp/d-117217-13077-eivvcp/package.tgz",
+    "rawSpec": "/tmp/d-11866-18793-1uxqyim.fmpk4ndn29/package.tgz",
+    "spec": "/tmp/d-11866-18793-1uxqyim.fmpk4ndn29/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117217-13077-eivvcp/package.tgz",
+  "_resolved": "file:../d-11866-18793-1uxqyim.fmpk4ndn29/package.tgz",
   "_shasum": "10e6fba258ce77ed1f635828c347a13b6ecaad2f",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117217-13077-eivvcp/package.tgz",
-  "_where": "/tmp/apm-install-dir-117217-13077-1bpxh3w",
+  "_spec": "/tmp/d-11866-18793-1uxqyim.fmpk4ndn29/package.tgz",
+  "_where": "/tmp/apm-install-dir-11866-18793-bcujbu.1ka3v7vi",
   "bugs": {
     "url": "https://github.com/jesseweed/seti-syntax/issues"
   },

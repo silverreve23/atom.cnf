@@ -2,40 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117415-29680-wcc00c/package.tgz",
+        "raw": "/tmp/d-11866-19012-mvyal7.i994q5b3xr/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117415-29680-wcc00c/package.tgz",
-        "spec": "/tmp/d-117415-29680-wcc00c/package.tgz",
+        "rawSpec": "/tmp/d-11866-19012-mvyal7.i994q5b3xr/package.tgz",
+        "spec": "/tmp/d-11866-19012-mvyal7.i994q5b3xr/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117415-29680-y5snvl"
+      "/tmp/apm-install-dir-11866-19012-1nqggep.mf0y1wz5mi"
     ]
   ],
-  "_from": "../d-117415-29680-wcc00c/package.tgz",
-  "_id": "linter-ui-default@1.2.4",
+  "_from": "../d-11866-19012-mvyal7.i994q5b3xr/package.tgz",
+  "_id": "linter-ui-default@1.7.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/linter-ui-default",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117415-29680-wcc00c/package.tgz",
+    "raw": "/tmp/d-11866-19012-mvyal7.i994q5b3xr/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117415-29680-wcc00c/package.tgz",
-    "spec": "/tmp/d-117415-29680-wcc00c/package.tgz",
+    "rawSpec": "/tmp/d-11866-19012-mvyal7.i994q5b3xr/package.tgz",
+    "spec": "/tmp/d-11866-19012-mvyal7.i994q5b3xr/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117415-29680-wcc00c/package.tgz",
-  "_shasum": "cd6cbb9e21c33c92c7d351ba7db3f67bc8c750a8",
+  "_resolved": "file:../d-11866-19012-mvyal7.i994q5b3xr/package.tgz",
+  "_shasum": "f83559dc90262f6c6a1d451d063366c6df546d18",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117415-29680-wcc00c/package.tgz",
-  "_where": "/tmp/apm-install-dir-117415-29680-y5snvl",
+  "_spec": "/tmp/d-11866-19012-mvyal7.i994q5b3xr/package.tgz",
+  "_where": "/tmp/apm-install-dir-11866-19012-1nqggep.mf0y1wz5mi",
   "bugs": {
     "url": "https://github.com/steelbrain/linter-ui-default/issues"
   },
@@ -70,17 +69,22 @@
       "default": false,
       "order": 1
     },
-    "panelTakesMinimumHeight": {
-      "title": "Panel Takes Minimum Height",
-      "description": "Reduce panel height when it exceeds the height of the error list",
-      "type": "boolean",
-      "default": true,
-      "order": 1
-    },
     "useBusySignal": {
       "description": "Whether to integrate with the `busy-signal` package",
       "type": "boolean",
       "default": true,
+      "order": 1
+    },
+    "hidePanelWhenEmpty": {
+      "description": "Hide panel when there are no issues to display",
+      "type": "boolean",
+      "default": true,
+      "order": 1
+    },
+    "alwaysTakeMinimumSpace": {
+      "description": "Auto resizes Linter panel when there are less issues to show",
+      "type": "boolean",
+      "default": false,
       "order": 1
     },
     "decorateOnTreeView": {
@@ -121,7 +125,7 @@
         "Entire Project",
         "Current File"
       ],
-      "default": "Current File",
+      "default": "Entire Project",
       "order": 2
     },
     "statusBarClickBehavior": {
@@ -129,6 +133,7 @@
       "type": "string",
       "enum": [
         "Toggle Panel",
+        "Toggle Status Bar Scope",
         "Jump to next issue"
       ],
       "default": "Toggle Panel",
@@ -138,10 +143,11 @@
       "type": "string",
       "description": "Choose whether tooltips show on mouseover, or follow the keyboard cursor",
       "enum": [
+        "Both",
         "Mouse",
         "Keyboard"
       ],
-      "default": "Mouse",
+      "default": "Both",
       "order": 2
     },
     "gutterPosition": {
@@ -159,7 +165,7 @@
       "title": "Panel Height",
       "description": "in px",
       "type": "number",
-      "default": 150,
+      "default": 100,
       "order": 3
     }
   },
@@ -178,22 +184,21 @@
   "dependencies": {
     "atom-package-deps": "^4.3.1",
     "disposable-event": "^1.0.3",
-    "marked": "^0.3.6",
-    "react": "^15.3.1",
-    "react-dom": "^15.3.2",
-    "react-resizable-box": "^1.8.1",
+    "marked": "^0.3.9",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "sb-debounce": "^1.0.1",
-    "sb-react-table": "^1.0.1"
+    "sb-react-table": "^1.0.2"
   },
   "description": "Default UI for the Linter package",
   "devDependencies": {
-    "eslint-config-steelbrain": "^3.0.0",
-    "flow-bin": "^0.45.0",
+    "eslint-config-steelbrain": "^5.0.0",
+    "flow-bin": "^0.66.0",
     "jasmine-fix": "^1.0.1",
     "rimraf": "^2.5.4"
   },
   "engines": {
-    "atom": ">=1.4.0 <2.0.0"
+    "atom": ">=1.19.0 <2.0.0"
   },
   "homepage": "https://github.com/steelbrain/linter-ui-default#readme",
   "keywords": [
@@ -220,14 +225,14 @@
       }
     }
   },
-  "readme": "Linter-UI-Default\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/linter-ui-default.svg)](https://greenkeeper.io/)\n\n[![Slack Badge](https://img.shields.io/badge/chat-atom.io%20slack-blue.svg?style=flat-square)](http://atom-slack.herokuapp.com/)\n[![Build Status](https://img.shields.io/circleci/project/steelbrain/linter-ui-default.svg?style=flat-square)](https://circleci.com/gh/steelbrain/linter-ui-default)\n[![Plugin installs!](https://img.shields.io/apm/dm/linter-ui-default.svg?style=flat-square)](https://atom.io/packages/linter-ui-default)\n[![Package version!](https://img.shields.io/apm/v/linter-ui-default.svg?style=flat-square)](https://atom.io/packages/linter-ui-defeault)\n[![Dependencies!](https://img.shields.io/david/steelbrain/linter-ui-default.svg?style=flat-square)](https://david-dm.org/steelbrain/linter-ui-default)\n\nThe default UI for linter.\n\n![Preview](https://cloud.githubusercontent.com/assets/4278113/23879933/1ab17e2a-0872-11e7-803d-3fe0ccfc6790.gif)\n\n### Installation\n\nYou can install it from the CLI\n\n```\napm install linter-ui-default\n```\n\nOr you can install from Settings view by searching for `linter-ui-default`.\n\n### License\n\nThis Project is licensed under the terms of MIT License, check the license file for more info.\n",
+  "readme": "Linter-UI-Default\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/linter-ui-default.svg)](https://greenkeeper.io/)\n\n[![Slack Badge](https://img.shields.io/badge/chat-atom.io%20slack-blue.svg?style=flat-square)](http://atom-slack.herokuapp.com/)\n[![Build Status](https://img.shields.io/circleci/project/steelbrain/linter-ui-default.svg?style=flat-square)](https://circleci.com/gh/steelbrain/linter-ui-default)\n[![Plugin installs!](https://img.shields.io/apm/dm/linter-ui-default.svg?style=flat-square)](https://atom.io/packages/linter-ui-default)\n[![Package version!](https://img.shields.io/apm/v/linter-ui-default.svg?style=flat-square)](https://atom.io/packages/linter-ui-default)\n[![Dependencies!](https://img.shields.io/david/steelbrain/linter-ui-default.svg?style=flat-square)](https://david-dm.org/steelbrain/linter-ui-default)\n\nThe default UI for linter.\n\n![Preview](https://cloud.githubusercontent.com/assets/4278113/23879933/1ab17e2a-0872-11e7-803d-3fe0ccfc6790.gif)\n\n### Installation\n\nYou can install it from the CLI\n\n```\napm install linter-ui-default\n```\n\nOr you can install from Settings view by searching for `linter-ui-default`.\n\n### License\n\nThis Project is licensed under the terms of MIT License, check the license file for more info.\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/steelbrain/linter-ui-default.git"
   },
   "scripts": {
-    "test": "(apm test) && (flow check) && (eslint . )"
+    "test": "(apm test) && (flow check) && (eslint . ) && (prettier --list-different lib/*.js)"
   },
-  "version": "1.2.4"
+  "version": "1.7.1"
 }

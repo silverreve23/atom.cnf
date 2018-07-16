@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118610-15756-15dnqly.3oorjxlxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118610-15756-15dnqly.3oorjxlxr/package.tgz",
+        "spec": "/tmp/d-118610-15756-15dnqly.3oorjxlxr/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118610-15756-1vwd5rq.5smqk9be29"
+    ]
+  ],
+  "_from": "../d-118610-15756-15dnqly.3oorjxlxr/package.tgz",
+  "_id": "atom-ide-ui@0.12.0",
+  "_inCache": true,
+  "_location": "/atom-ide-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118610-15756-15dnqly.3oorjxlxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118610-15756-15dnqly.3oorjxlxr/package.tgz",
+    "spec": "/tmp/d-118610-15756-15dnqly.3oorjxlxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118610-15756-15dnqly.3oorjxlxr/package.tgz",
+  "_shasum": "7ffa9e7aa31ef4b113ad4b4cdb04b0d67f664429",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118610-15756-15dnqly.3oorjxlxr/package.tgz",
+  "_where": "/tmp/apm-install-dir-118610-15756-1vwd5rq.5smqk9be29",
+  "bugs": {
+    "url": "https://github.com/facebook-atom/atom-ide-ui/issues"
+  },
+  "dependencies": {
+    "anser": "1.4.6",
+    "classnames": "2.2.5",
+    "dedent": "0.7.0",
+    "domexception": "1.0.1",
+    "dompurify": "1.0.3",
+    "escape-carriage": "1.2.0",
+    "escape-html": "1.0.3",
+    "escape-string-regexp": "1.0.5",
+    "event-kit": "2.2.0",
+    "event-target-shim": "3.0.1",
+    "fs-plus": "2.9.3",
+    "fuzzaldrin-plus": "0.4.1",
+    "glob": "7.1.1",
+    "idx": "1.2.0",
+    "immutable": "4.0.0-rc.9",
+    "invariant": "2.2.2",
+    "lodash": "4.17.4",
+    "log4js": "1.1.1",
+    "lru-cache": "4.0.2",
+    "marked": "0.3.9",
+    "mime-types": "2.1.16",
+    "mkdirp": "0.5.1",
+    "mv": "2.1.1",
+    "nuclide-prebuilt-libs": "0.5.1",
+    "nullthrows": "1.0.0",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-virtualized": "9.13.0",
+    "redux": "3.6.0",
+    "redux-logger": "3.0.6",
+    "reselect": "3.0.1",
+    "rimraf": "2.6.2",
+    "rxjs": "5.5.5",
+    "semver": "5.3.0",
+    "shallowequal": "0.2.2",
+    "shell-quote": "1.6.1",
+    "strip-ansi": "3.0.1",
+    "tabbable": "1.1.0",
+    "temp": "0.8.3",
+    "uuid": "3.0.1",
+    "vscode-debugprotocol": "1.24.0",
+    "vscode-jsonrpc": "3.3.0",
+    "vscode-uri": "1.0.1",
+    "xterm": "3.1.0"
+  },
+  "description": "A collection of Atom UIs to support language services.",
+  "devDependencies": {
+    "codecov": "2.3.0",
+    "eslint-plugin-dependencies": "2.4.0",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-jasmine": "2.9.1",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-prefer-object-spread": "1.2.1",
+    "eslint-plugin-prettier": "2.3.1",
+    "eslint-plugin-react": "7.4.0",
+    "flow-bin": "0.71.0",
+    "nyc": "11.2.1",
+    "prettier": "1.12.1"
+  },
+  "engines": {
+    "atom": ">= 1.25.0"
+  },
+  "homepage": "https://github.com/facebook-atom/atom-ide-ui#readme",
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "main": "./index-entry.js",
+  "name": "atom-ide-ui",
+  "optionalDependencies": {},
+  "readme": "# atom-ide-ui &middot; [![Package version](https://img.shields.io/apm/v/atom-ide-ui.svg)](https://atom.io/packages/atom-ide-ui) [![CircleCI](https://img.shields.io/circleci/project/github/facebook-atom/atom-ide-ui.svg)](https://circleci.com/gh/facebook-atom/atom-ide-ui)\n\nAtom UIs to support language services and debuggers as part of Atom IDE.\n\nLanguage integrations should be built on top of\n[atom-languageclient](https://github.com/atom/atom-languageclient).\n\n![Screenshot](https://raw.githubusercontent.com/facebook-atom/atom-ide-ui/master/docs/images/screenshot.png)\n\nDebugger integrations should be modeled after [atom-ide-debugger-node](https://atom.io/packages/atom-ide-debugger-node).\n\n![Screenshot](https://raw.githubusercontent.com/facebook-atom/atom-ide-ui/master/docs/images/debugger.png)\n\nContributions are welcome! File bugs and feature requests from the issues page,\nor read the [CONTRIBUTING.md](https://github.com/facebook-atom/atom-ide-ui/blob/master/CONTRIBUTING.md)\nfile for details on how to submit a pull request.\n\n## Getting Started\n\nFirst, make sure you have Atom 1.19+ installed.\nInstall `atom-ide-ui` from \"Install\" in Atom's settings or run:\n\n```\napm install atom-ide-ui\n```\n\nYou'll also want to install a suitable language package and/or debugger package since `atom-ide-ui` doesn't provide any language or debugger support by default.\n\nLanguage support packages based on https://github.com/atom/atom-languageclient should work out of the box with `atom-ide-ui` installed, such as:\n\n* [ide-csharp](https://github.com/atom/ide-csharp)\n* [ide-flowtype](https://github.com/flowtype/ide-flowtype)\n* [ide-java](https://github.com/atom/ide-java)\n* [ide-php](https://github.com/atom/ide-php)\n* [ide-typescript](https://github.com/atom/ide-typescript)\n* [and more...](https://github.com/atom/atom-languageclient/wiki/List-of-Atom-packages-using-Atom-LanguageClient)\n\nThese debugger packages should work out of the box:\n* [Node Debugger](https://atom.io/packages/atom-ide-debugger-node)\n* [Python Debugger](https://atom.io/packages/atom-ide-debugger-python)\n* [React Native Debugger]( https://atom.io/packages/atom-ide-debugger-react-native)\n* [C/C++ GDB Debugger]( https://atom.io/packages/atom-ide-debugger-native-gdb)\n* [OCaml Debugger]( https://atom.io/packages/atom-ide-debugger-ocaml)\n\n## Language Features\n\nCheck out the documentation pages for more information about each feature!\n\n- [Busy Signal](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/busy-signal.md)\n- [Code Actions](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/code-actions.md)\n- [Code Format](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/code-format.md)\n- [Code Highlight](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/code-highlight.md)\n- [Console](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/console.md)\n- [Datatips](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/datatips.md)\n- [Definitions (plus Hyperclick)](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/definitions.md)\n- [Diagnostics](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/diagnostics.md)\n- [Find References](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/find-references.md)\n- [Outline](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/outline-view.md)\n- [Signature Help (Experimental/WIP)](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/signature-help.md)\n\n## Debugger Features\n- [Launch/Attach UI](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/debugger-launch-attach-ui.md)\n- [Breakpoints + conditional](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/debugger-breakpoints.md)\n- [Stepping (Pause, Continue, Step, Restart)](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/debugger-controls.md)\n- [Threads (Running, Focus)](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/debugger-threads.md)\n- [Stacktraces & in-memory source views](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/debugger-stacktraces.md)\n- [Scopes & editable variables views](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/debugger-scopes.md)\n- [Watch expressions](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/debugger-watch-expressions.md)\n- [Console + Repl](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/debugger-console.md)\n\nSee [Keybindings](https://github.com/facebook-atom/atom-ide-ui/blob/master/docs/keybindings.md) for a list of default keybindings.\n\n## License\n\n`atom-ide-ui` is BSD-licensed. We also provide an additional patent grant.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook-atom/atom-ide-ui.git"
+  },
+  "scripts": {
+    "flow": "flow",
+    "lint": "eslint",
+    "lint-all": "eslint . --max-warnings 0",
+    "release-transpile": "./modules/nuclide-node-transpiler/bin/release-transpile.js",
+    "test": "npm run flow && npm run lint-all && ./scripts/test.js"
+  },
+  "version": "0.12.0",
+  "workspaces": [
+    "modules/*"
+  ]
+}
