@@ -1,8 +1,7 @@
 "use strict";
 
 const {CompositeDisposable, Emitter} = require("atom");
-const {normalisePath} = require("alhadis.utils");
-const {EntityType} = require("atom-fs");
+const {EntityType, normalisePath} = require("atom-fs");
 const StrategyManager = require("./strategy-manager.js");
 const IconTables = require("../icons/icon-tables.js");
 const Options = require("../options.js");
@@ -274,6 +273,9 @@ class IconDelegate{
 	 * recovered once bound: only reassigned a different master. This
 	 * mechanism exists for symlink use only.
 	 *
+	 * FIXME: This should be a method, not a property. Destructively
+	 * redefining a property when writing to it is seriously weird.
+	 * 
 	 * @param {IconDelegate} input
 	 * @emits did-change-master
 	 */
@@ -299,7 +301,7 @@ class IconDelegate{
 							disposable = null;
 						}
 						
-						if(to)
+						if(to && to instanceof IconDelegate && !to.destroyed)
 							disposable = new CompositeDisposable(
 								to.onDidDestroy(() => this.master = null),
 								to.onDidChangeMaster(to => this.master = to),

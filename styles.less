@@ -1,24 +1,24 @@
 
 .symbols-tree-view{
-  width: 300px !important;
-  height: 100%;
-  padding: 4px;
-  position: relative;
-  overflow-y: auto;
-  overflow-x: hidden;
-  opacity: 0.8;
+    width: 300px !important;
+    height: 100%;
+    padding: 4px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    opacity: 0.8;
 }
 
 atom-text-editor, html{
   atom-text-editor-minimap{
       .open-minimap-quick-settings{
-        display: none !important;
+          display: none !important;
       }
   }
 }
 
 minimap-quick-settings{
-  display: none !important;
+    display: none !important;
 }
 
 atom-text-editor, html{
@@ -31,32 +31,36 @@ atom-text-editor, html{
 }
 
 atom-text-editor-minimap{
-  opacity: 1 !important;
-  width: 200px !important;
+    opacity: 1 !important;
+    width: 200px !important;
 }
 
 atom-text-editor.editor atom-text-editor-minimap{
-  background: #0B0D0E;
+    background-color: transparent !important;
 }
 
 ::-webkit-scrollbar:vertical{
     width: 0px;
-	opacity: 0 !important;
+    opacity: 0 !important;
 }
 ::-webkit-scrollbar:horizontal{
     height: 0px;
-	opacity: 0;
+    opacity: 0;
 }
 
 .tree-view-scroller::-webkit-scrollbar{
-  display: none;
+    display: none;
 }
 
 .tree-view-scroller::-webkit-scrollbar-thumb{
-  background-color: red;
+    background-color: red;
 }
-.editor{ line-height: 36px; font-style: italic; }
-.cursor{ height: 20px !important; margin-top: 9px; }
+.editor{
+    line-height: 36px; font-style: italic;
+}
+.cursor{
+    height: 20px !important; margin-top: 9px;
+}
 
 .tab-bar .tab::before{
 	background-color: transparent !important;
@@ -72,4 +76,11 @@ atom-text-editor.editor atom-text-editor-minimap{
 
 .syntax--entity.syntax--name.syntax--function{
 	color: #8DC149;
+}
+
+.texteditor.tab.sortable.active{
+	border: none;
+}
+.file-colors .name.icon[data-name$=".php"], .file-colors .title[data-name$=".php"] {
+    color: #00bc8a;
 }

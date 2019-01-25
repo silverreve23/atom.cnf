@@ -3,7 +3,88 @@ Change Log
 All notable changes to the project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-[Unpublished]: https://github.com/file-icons/atom/compare/v2.1.22...HEAD
+[Unpublished]: https://github.com/file-icons/atom/compare/v2.1.28...HEAD
+
+
+[v2.1.28] - 2019-01-15
+----------------------
+- **New icons:** Asymptote (`.asy`), Gridsome (`gridsome.config.{js,ts}`), San (`.san`), Yandex (`.yaspellerrc.*`, `.yaspeller.json`), Zig (`.zig`)
+- **Support:** Mocha (`.mocharc.{js,json,yml}`), TeX (`.pgf`, `.tikz`), Vue (`vue.config.js`), Xcode (`.xccheckout`, `.xcscheme`, `.xcscmblueprint`, `.xcsettings`, `.xcuserstate`, `.xcworkspacedata`)
+
+[v2.1.28]: https://github.com/file-icons/atom/releases/tag/v2.1.28
+
+
+
+[v2.1.27] - 2018-12-17
+----------------------
+### Added
+- **New icons:** Caddy (new logo), Falcon (`.fal`, `.falcon`), Fountain (`.fountain`), Scilla (`.scilla`)
+- **Support:** Heroku (`.slugignore`)
+- Recognition of several `*ignore`-type files without leading dots (`dockerignore` instead of `.dockerignore`, etc)
+
+### Fixed
+- `linguist-language` attributes not affecting files on Windows
+- Signature matches missed unmarked HTML files with lengthy `<!DOCTYPE` headers
+
+[v2.1.27]: https://github.com/file-icons/atom/releases/tag/v2.1.27
+
+
+
+[v2.1.26] - 2018-10-25
+----------------------
+### Added
+- **New icons:** AnyScript, AsciiDoctor, Ballerina, Bazaar, CloudFoundry, Conan, Coveralls, Crowdin, CVS, DocPad, Ensime, Floobits, FOSSA, Fossil, FuseBox, Galen, Glide, Helix, HJSON, Husky, Ink, Istanbul, JSON, JSON5, kOS, LOLCODE, Microsoft Lync, Microsoft Outlook, Microsoft Publisher, Monotone, Netlify, NestJS, Nuxt, OpenVMS, Point cloud data, PhraseApp, Pre-commit, Prisma, Progress, Pyret, QlikView, RStudio, Quasar, Rubocop, SGI, Snort, Solidarity, Storybook, Stylable, TFS, TOML, TTCN-3, Unibeautify, Velocity, VSTS, Wallaby, Walt, WurstScript
+- **Support:** Affinity (`*.afphoto`, `*.afpub`), Bazel (`.bazelrc`, `bazel.rc`), Darcs (`.boringignore`), Generic code (`*.tera`), Microsoft Word (`*.wll`), HCP (`*.workflow`), MarkdownLint (`.markdownlint`, `.markdownlintrc.*`), PostgreSQL (`*.pgsql`)
+
+### Changed
+- AsciiDoc icon to use AsciiDoctor logo
+- OpenEdge ABL icon replaced with Progress logo
+
+[v2.1.26]: https://github.com/file-icons/atom/releases/tag/v2.1.26
+
+
+[v2.1.25] - 2018-09-21
+----------------------
+### Added
+- **Support:** Ansible (`*/roles/*/{defaults,vars,tests,meta}/*.yml`), Data (`.yasnippet`, `.yas`, `figmagic`), ESDoc (`esdoc.js`), INI (`.flc`), PostScript (`.gsf`), Readmes (`FAQ`, `*.faq`)
+
+### Changed
+- Increased minimum required Atom version to v1.25.0
+- Upgraded dependencies to [`atom-fs@0.1.6`][] and [`mapped-disposable@1.0.2`][]
+
+### Fixed
+- [[`#721`][]]: Exception thrown when registering symbolic links
+- [[`#754`][]]: Exception thrown from nulled service disposable
+
+[v2.1.25]: https://github.com/file-icons/atom/releases/tag/v2.1.25
+[`#721`]: https://github.com/file-icons/atom/issues/721
+[`#754`]: https://github.com/file-icons/atom/issues/754
+[`atom-fs@0.1.6`]: https://github.com/file-icons/Atom-FS/releases/tag/v0.1.6
+[`mapped-disposable@1.0.2`]: https://github.com/file-icons/MappedDisposable/releases/tag/v1.0.2
+
+
+
+[v2.1.24] - 2018-08-14
+----------------------
+### Fixed
+- [[`#753`][]]: Startup breakage for users running Atom 1.23.3
+
+[v2.1.24]: https://github.com/file-icons/atom/releases/tag/v2.1.24
+[`#753`]: https://github.com/file-icons/atom/issues/753#issuecomment-412749410
+
+
+
+[v2.1.23] - 2018-08-13
+----------------------
+### Added
+- **New icons:** Affinity Designer (`.afdesign`), Lektor (`.lr`, `.lektorproject`), Modula-3/Quake (`.i3`, `.ig`, `.m3`, `.mg`, `m3makefile`, `m3overrides`), PICO-8 (`.p8`), Serverless (`serverless.yml`)
+- **Support:** Ansible (`*/roles/*/{tasks,handlers}/*.yml`, `/{group,host}_vars/*.yml`), Junos (`*.slax`), Images (`.jpeg`, `.pxm`, `.pxb`, `.pxg`, `.pxls`, `.pxs`)
+- [[`#748`][]]: Significantly better support for [Webpack configs][], which no longer require `config` or `conf` to be part of the filename.
+
+[v2.1.23]: https://github.com/file-icons/atom/releases/tag/v2.1.23
+[Webpack configs]: https://webpack.js.org/guides/production/
+[`#748`]: https://github.com/file-icons/atom/issues/748
+
 
 
 [v2.1.22] - 2018-07-03

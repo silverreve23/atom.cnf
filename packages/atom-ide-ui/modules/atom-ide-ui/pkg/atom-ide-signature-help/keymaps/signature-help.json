@@ -1,8 +1,0 @@
-{
-  ".platform-darwin atom-text-editor:not([mini])": {
-    "cmd-shift-space": "signature-help:show"
-  },
-  ".platform-win32 atom-text-editor:not([mini]), .platform-linux atom-text-editor:not([mini])": {
-    "ctrl-shift-space": "signature-help:show"
-  }
-}

@@ -1,105 +1,11 @@
 "*":
-  _dartlang:
-    _firstRun: true
-    _version: "0.7.0"
-  "atom-autocomplete-php": {}
-  "atom-material-ui":
-    colors:
-      abaseColor: "#607d8b"
-      predefinedColor: "Blue Grey"
-    tabs:
-      compactTabs: true
-    ui: {}
-  "atom-package-deps":
-    ignored: []
-  "autocomplete-plus":
-    autoActivationDelay: 500
-  autosave:
-    enabled: true
   core:
     autoHideMenuBar: true
-    destroyEmptyPanes: false
-    disabledPackages: [
-      "symbols-tree-view"
-      "linter"
-    ]
-    followSymlinks: false
-    packagesWithKeymapsDisabled: [
-      "markdown-preview"
-      "atom-alignment"
-    ]
     telemetryConsent: "no"
-    themes: [
-      "atom-material-ui"
-      "seti-syntax"
-    ]
   editor:
-    fontSize: 16
-    lineHeight: 1.7
-    softTabs: false
     tabLength: 4
-    tabType: "hard"
-  "editor-background":
-    box3d:
-      shadowOpacity: 1
-    image:
-      customOverlayColor: true
-      opacity: 50
-      url: "https://www.planwallpaper.com/static/images/518169-backgrounds.jpg"
-    other:
-      treeViewOpacity: 50
-    text:
-      blur: 30
-      expand: 5
-    video:
-      playAnimation: true
+    tabType: "soft"
   "exception-reporting":
-    userId: "5df29902-7727-46d3-8786-51fea2809cd5"
-  expose:
-    useAnimations: false
-  "file-icons":
-    colourChangedOnly: true
-  fonts:
-    fontFamily: "Meslo"
-  "git-plus":
-    commits: {}
-    experimental:
-      autoFetchNotify: true
-  highlighte:
-    colorHighlighte: "#89919b"
-    colorHightlighte: "#9b4c4c"
-  "linter-ui-default":
-    panelHeight: 48
-  minimap:
-    absoluteMode: true
-    charHeight: 1
-    createPluginInDevMode: true
-    displayCodeHighlights: false
-    minimapScrollIndicator: false
-    moveCursorOnMinimapClick: true
-    plugins:
-      "my-minimap-plugin": true
-      "my-minimap-pluginDecorationsZIndex": 0
-      "sd-a-s-d": false
-      "sd-a-s-dDecorationsZIndex": 0
-    scrollAnimation: true
-    textOpacity: 0.5
-  "php-debug":
-    AutoExpandLocals: true
-    DebugXDebugMessages: true
-    currentPanelHeight: "496px"
-    currentPanelMode: "bottom"
-    currentPanelWidth: "363px"
-    showWelcome: false
-  "seti-syntax": {}
-  "symbols-tree-view":
-    autoToggle: true
-  "tree-view":
-    hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
+    userId: "c0f77c43-d60f-47a7-902f-6a9f9b1bc351"
   welcome:
     showOnStartup: false
-".blade.html.php.text":
-  editor:
-    commentEnd: " --}}"
-    commentStart: "{{-- "
