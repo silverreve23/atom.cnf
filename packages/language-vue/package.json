@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-vue/versions/0.24.0/tarball",
+  "_id": "language-vue@0.24.0",
+  "_inBundle": false,
+  "_integrity": "sha512-+pckMuh0iy37u78D2fUNhLtCurmXxf+POrIrAdnNalWh0xz/q0RGqq0QMDINJMMrM4HXUPP9rIOga9Uw0nOYjg==",
+  "_location": "/language-vue",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-vue/versions/0.24.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-vue/versions/0.24.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-vue/versions/0.24.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-vue/versions/0.24.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-vue/versions/0.24.0/tarball",
+  "_shasum": "fe649cb031bbc900d9103dd93f79356412226266",
+  "_spec": "https://www.atom.io/api/packages/language-vue/versions/0.24.0/tarball",
+  "_where": "/tmp/apm-install-dir-119025-10039-1sz4yi9.dtde",
+  "bugs": {
+    "url": "https://github.com/hedefalk/atom-vue/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Vue component support in Atom",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/hedefalk/atom-vue#readme",
+  "license": "MIT",
+  "name": "language-vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedefalk/atom-vue.git"
+  },
+  "version": "0.24.0"
+}
