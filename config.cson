@@ -1,11 +1,17 @@
 "*":
   core:
     autoHideMenuBar: true
+    disabledPackages: [
+      "github"
+    ]
     telemetryConsent: "no"
   editor:
+    fontSize: 15
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "c0f77c43-d60f-47a7-902f-6a9f9b1bc351"
+  highlighte:
+    colorHighlighte: "#08bb72"
   welcome:
     showOnStartup: false

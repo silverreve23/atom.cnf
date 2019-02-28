@@ -1,0 +1,117 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117113-9261-1rcw785/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117113-9261-1rcw785/package.tgz",
+        "spec": "/tmp/d-117113-9261-1rcw785/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117113-9261-drd3zv"
+    ],
+    [
+      {
+        "raw": "/tmp/d-1171113-5772-kl65b3/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1171113-5772-kl65b3/package.tgz",
+        "spec": "/tmp/d-1171113-5772-kl65b3/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1171113-5772-1x8k96z"
+    ],
+    [
+      {
+        "raw": "/tmp/d-1171126-25742-1efxt0y/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1171126-25742-1efxt0y/package.tgz",
+        "spec": "/tmp/d-1171126-25742-1efxt0y/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1171126-25742-8yl8c3"
+    ],
+    [
+      {
+        "raw": "/tmp/d-1171127-571-fqbenj/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1171127-571-fqbenj/package.tgz",
+        "spec": "/tmp/d-1171127-571-fqbenj/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1171127-571-h7o91x"
+    ],
+    [
+      {
+        "raw": "/tmp/d-118124-26338-1lc6x5b/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118124-26338-1lc6x5b/package.tgz",
+        "spec": "/tmp/d-118124-26338-1lc6x5b/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118124-26338-mtw2r5"
+    ]
+  ],
+  "_from": "https://www.atom.io/api/packages/highlighte/versions/2.0.3/tarball",
+  "_id": "highlighte@2.0.4",
+  "_inBundle": false,
+  "_inCache": true,
+  "_installable": true,
+  "_integrity": "sha512-EBARx/QT0m/Z9b2KYSyzqcINeECKhA6sJqm/Q2FzOtJoaoML0fJTEX7TPLQDT0cvJwmMPqOdKxpUNLiEzycaKw==",
+  "_location": "/highlighte",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/highlighte/versions/2.0.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/highlighte/versions/2.0.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/highlighte/versions/2.0.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/highlighte/versions/2.0.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/highlighte/versions/2.0.3/tarball",
+  "_shasum": "d84a2a2935c4e39da71464146055117825cfb00c",
+  "_shrinkwrap": null,
+  "_spec": "https://www.atom.io/api/packages/highlighte/versions/2.0.3/tarball",
+  "_where": "/tmp/apm-install-dir-119029-19216-v7ku9f.ah6nc",
+  "activationCommands": {
+    "atom-workspace": "highlighte:addColor"
+  },
+  "bugs": {
+    "url": "https://github.com/silverreve23/hightlighte/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "write": "^1.0.3"
+  },
+  "deprecated": false,
+  "description": "A text highlighte color",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/silverreve23/hightlighte#readme",
+  "keywords": [
+    "highlighte"
+  ],
+  "license": "MIT",
+  "main": "./lib/highlighte",
+  "name": "highlighte",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverreve23/hightlighte.git"
+  },
+  "version": "2.1.0"
+}

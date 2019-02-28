@@ -1,0 +1,6 @@
+{
+  "atom-text-editor": {
+    "ctrl-alt-y": "highlighte:addColor",
+    "ctrl-alt-k": "highlighte:removeColor"
+  }
+}
