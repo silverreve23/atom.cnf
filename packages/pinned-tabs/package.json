@@ -1,0 +1,127 @@
+{
+  "_from": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
+  "_id": "pinned-tabs@2.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Dio5lK2LraJO4RWwEMW93OfurSI7VP1H3zegf1IV+ZasvqAu8A40wOsKNoqpe2HTHV8GBoFaTo8f7DsDrE6sCA==",
+  "_location": "/pinned-tabs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
+  "_shasum": "f56010d75816fdb3718db8e9f694d9c1a0b7ce7e",
+  "_spec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
+  "_where": "/tmp/apm-install-dir-119128-9212-qq9mdc.ceyf",
+  "atomTestRunner": "atom-mocha",
+  "bugs": {
+    "url": "https://github.com/ericcornelissen/pinned-tabs-for-atom/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "animated": {
+      "type": "boolean",
+      "default": true,
+      "order": 1,
+      "title": "Enable animations",
+      "description": "Tick this to enable all animation related to pinned tabs"
+    },
+    "closeUnpinned": {
+      "type": "boolean",
+      "default": false,
+      "order": 2,
+      "title": "Enable the 'Close Unpinned Tabs' option",
+      "description": "Tick this to show the 'Close Unpinned Tabs' from the context menu"
+    },
+    "modified": {
+      "type": "string",
+      "default": "always",
+      "order": 3,
+      "title": "Modified indicator",
+      "enum": [
+        {
+          "value": "dont",
+          "description": "Don't use this feature"
+        },
+        {
+          "value": "hover",
+          "description": "Only show this when I hover over the tab"
+        },
+        {
+          "value": "always",
+          "description": "Always show this when a tab is modified"
+        }
+      ]
+    },
+    "visualstudio": {
+      "type": "object",
+      "title": "Visual Studio style pinning",
+      "description": "Options for...",
+      "order": 4,
+      "properties": {
+        "enable": {
+          "type": "boolean",
+          "default": false,
+          "order": 1,
+          "title": "Enable VS style pinning"
+        },
+        "minimumWidth": {
+          "type": "integer",
+          "default": 180,
+          "minimum": 0,
+          "order": 2,
+          "title": "Minimum width for pinned tabs"
+        }
+      }
+    }
+  },
+  "deprecated": false,
+  "description": "An Atom package that allows you to pin tabs",
+  "devDependencies": {
+    "atom-coverage": "^1.1.2",
+    "atom-mocha": "^2.0.7",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-istanbul": "^5.1.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.10.0",
+    "husky": "^0.14.3",
+    "nyc": "^13.1.0",
+    "rimraf": "^2.6.2",
+    "sinon": "^6.3.5",
+    "sinon-chai": "^3.2.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ericcornelissen/pinned-tabs-for-atom#readme",
+  "keywords": [
+    "pinned",
+    "pin",
+    "tabs"
+  ],
+  "license": "MIT",
+  "main": "./lib/pinned-tabs",
+  "name": "pinned-tabs",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ericcornelissen/pinned-tabs-for-atom.git"
+  },
+  "scripts": {
+    "check:coverage": "nyc check-coverage",
+    "clean": "rimraf coverage/ .nyc_output/",
+    "lint": "eslint lib/*.js spec/*.js",
+    "precommit": "npm run lint",
+    "test": "atom --test spec",
+    "test:coverage": "atom-coverage"
+  },
+  "version": "2.1.1"
+}
