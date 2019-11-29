@@ -124,7 +124,7 @@
 		\n# @return void
 		\n# Metod hundle ...
 		\n#--------------------------------------------------------------------------
-		\n${1:public }function ${2:FunctionName}($${4:argument}){\n\n\t${0:# code...}\n\n}
+		\n${1:public }function ${2:FunctionName}($${4:argument}){\n\t${0:# code...}\n}
 	'
   'anonymous function':
     'prefix': 'f',
