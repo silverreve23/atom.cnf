@@ -24,7 +24,7 @@
     "idx": "1.2.0",
     "immutable": "4.0.0-rc.9",
     "log4js": "1.1.1",
-    "marked": "0.3.9",
+    "marked": "0.8.0",
     "nuclide-commons": "0.7.1-dev",
     "nuclide-commons-atom": "0.7.1-dev",
     "nuclide-commons-ui": "0.7.1-dev",
