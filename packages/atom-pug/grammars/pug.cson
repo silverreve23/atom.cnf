@@ -1,0 +1,275 @@
+'fileTypes': [
+  'pug'
+]
+'name': 'Pug'
+'patterns': [
+  {
+    'captures':
+      '1':
+        'name': 'keyword.control.import.include.pug'
+    'match': '^\\s*\\b(include)\\b'
+  }
+  {
+    'match': '^(!!!)(\\s*[a-zA-Z0-9-_]+)?'
+    'name': 'keyword.other.doctype.pug'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'punctuation.section.comment.pug'
+    'match': '^\\s*(//-?)(?:\\s*[^-\\s]|\\s+\\S).*$\\n?'
+    'name': 'comment.line.double-slash.pug'
+  }
+  {
+    'begin': '^(\\s*)(//-?)\\s*$'
+    'beginCaptures':
+      '2':
+        'name': 'punctuation.section.comment.pug'
+    'end': '^(?!\\1\\s+|$)'
+    'name': 'comment.block.pug'
+  }
+  {
+    'begin': '^(\\s*)(\\:markdown)'
+    'beginCaptures':
+      '2':
+        'name': 'entity.name.function.pug'
+    'end': '^(?!\\1\\s+)'
+    'name': 'meta.filter.markdown.pug'
+    'patterns': [
+      {
+        'include': 'text.html.markdown'
+      }
+    ]
+  }
+  {
+    'begin': '^(\\s*)(\\:sass)'
+    'beginCaptures':
+      '2':
+        'name': 'entity.name.function.pug'
+    'end': '^(?!\\1\\s+)'
+    'name': 'meta.filter.sass.pug'
+    'patterns': [
+      {
+        'include': 'source.sass'
+      }
+    ]
+  }
+  {
+    'begin': '^(\\s*)(\\:less)'
+    'beginCaptures':
+      '2':
+        'name': 'entity.name.function.pug'
+    'end': '^(?!\\1\\s+)'
+    'name': 'meta.filter.less.pug'
+    'patterns': [
+      {
+        'include': 'source.css.less'
+      }
+    ]
+  }
+  {
+    'begin': '^(\\s*)(\\:coffeescript)'
+    'beginCaptures':
+      '2':
+        'name': 'entity.name.function.pug'
+    'end': '^(?!\\1\\s+)(?=\\s*.)'
+    'name': 'meta.filter.coffee.pug'
+    'patterns': [
+      {
+        'include': 'source.coffee'
+      }
+    ]
+  }
+  {
+    'begin': '^(\\s*)(\\:cdata)'
+    'beginCaptures':
+      '2':
+        'name': 'entity.name.function.pug'
+    'end': '^(?!\\1\\s+)'
+    'name': 'meta.filter.cdata.pug'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'storage.type.function.pug'
+      '2':
+        'name': 'entity.name.function.pug'
+      '3':
+        'name': 'punctuation.definition.parameters.begin.pug'
+      '4':
+        'name': 'variable.parameter.function.pug'
+      '5':
+        'name': 'punctuation.definition.parameters.end.pug'
+    'comment': 'match stuff like: mixin dialog-title-desc(title, desc)'
+    'match': '^\\s*(mixin) ([\\w\\-]+)\\s*(\\()(.*?)(\\))'
+    'name': 'meta.mixin.pug'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'storage.type.function.pug'
+      '2':
+        'name': 'entity.name.function.pug'
+    'comment': 'match stuff like: mixin dialog-title-desc'
+    'match': '^\\s*(mixin) ([\\w\\-]+)'
+    'name': 'meta.mixin.pug'
+  }
+  {
+    'begin': '^\\s*(-|=|!=)'
+    'end': '$'
+    'name': 'source.js.embedded.pug'
+    'patterns': [
+      {
+        'include': 'source.js'
+      }
+      {
+        'match': '\\b(each)\\b'
+        'name': 'keyword.control.js'
+      }
+    ]
+  }
+  {
+    'begin': '^(\\s*)(script)'
+    'beginCaptures':
+      '2':
+        'name': 'entity.name.tag.script.pug'
+    'end': '^((?=(\\1)([\\w#\\.]|$\\n?))|^$\\n?)'
+    'name': 'source.js.embedded.pug'
+    'patterns': [
+      {
+        'begin': '(?<=script)\\s*\\('
+        'end': '\\)'
+        'patterns': [
+          {
+            'include': '#tag-stuff'
+          }
+        ]
+      }
+      {
+        'include': 'source.js'
+      }
+    ]
+  }
+  {
+    'match': '[#!]\\{[^\\}]+\\}'
+    'name': 'string.interpolated.pug'
+  }
+  {
+    'begin': '^\\s*(?!\\w+\\:)(?:(([\\w]+))|(?=\\.|#))'
+    'captures':
+      '1':
+        'name': 'meta.tag.any.pug'
+      '2':
+        'name': 'entity.name.tag.pug'
+    'comment': 'Match any tag, id or class. skip AST filters'
+    'end': '$|(?!\\.|#|=|-)'
+    'patterns': [
+      {
+        'match': '\\.[\\w-]+'
+        'name': 'meta.tag.attribute.class.pug'
+      }
+      {
+        'match': '#[\\w-]+'
+        'name': 'meta.tag.attribute.id.pug'
+      }
+    ]
+  }
+  {
+    'begin': '(?<=\\w)\\s*\\('
+    'end': '\\)'
+    'name': 'meta.tag.attribute.pug'
+    'patterns': [
+      {
+        'include': '#tag-stuff'
+      }
+    ]
+  }
+]
+'repository':
+  'entities':
+    'patterns': [
+      {
+        'captures':
+          '1':
+            'name': 'punctuation.definition.entity.pug'
+          '3':
+            'name': 'punctuation.definition.entity.pug'
+        'match': '(&)([a-zA-Z0-9]+|#[0-9]+|#x[0-9a-fA-F]+)(;)'
+        'name': 'constant.character.entity.pug'
+      }
+      {
+        'match': '&'
+        'name': 'invalid.illegal.bad-ampersand.pug'
+      }
+    ]
+  'filter-langs':
+    'patterns': [
+      {
+        'include': '#markdown'
+      }
+      {
+        'include': '#sass'
+      }
+    ]
+  'markdown':
+    'begin': 'markdown\\s*$\\n?'
+    'end': '(?!^\\1\\s+)'
+    'patterns': [
+      {
+        'include': 'text.html.markdown'
+      }
+    ]
+  'sass':
+    'begin': '^(\\s*)\\:sass'
+    'end': '(?!^\\1\\s+)'
+    'patterns': [
+      {
+        'include': 'source.sass'
+      }
+    ]
+  'string-double-quoted':
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.pug'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.pug'
+    'name': 'string.quoted.double.pug'
+    'patterns': [
+      {
+        'include': '#entities'
+      }
+    ]
+  'string-single-quoted':
+    'begin': '\''
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.pug'
+    'end': '\''
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.pug'
+    'name': 'string.quoted.single.pug'
+    'patterns': [
+      {
+        'include': '#entities'
+      }
+    ]
+  'tag-generic-attribute':
+    'match': '\\b([a-zA-Z\\-:]+)'
+    'name': 'entity.other.attribute-name.pug'
+  'tag-stuff':
+    'patterns': [
+      {
+        'include': '#string-double-quoted'
+      }
+      {
+        'include': '#string-single-quoted'
+      }
+      {
+        'include': '#tag-generic-attribute'
+      }
+    ]
+'scopeName': 'source.pug'

@@ -1,0 +1,52 @@
+{
+  "_from": "https://www.atom.io/api/packages/set-syntax/versions/0.4.0/tarball",
+  "_id": "set-syntax@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-mST3vBTNTIBi6ZZh7nn768KAmV9zI6Oa0qFJW4O3yWA5cG6LdsmhxdaFMqM8lgKV5g11Q0DI7XhrHEZ35T/GxA==",
+  "_location": "/set-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/set-syntax/versions/0.4.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/set-syntax/versions/0.4.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/set-syntax/versions/0.4.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/set-syntax/versions/0.4.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/set-syntax/versions/0.4.0/tarball",
+  "_shasum": "5a9a960438f1796922e32ff4e8d832561ecbec85",
+  "_spec": "https://www.atom.io/api/packages/set-syntax/versions/0.4.0/tarball",
+  "_where": "/tmp/apm-install-dir-120111-8601-1lb2q5u.gn6h",
+  "author": {
+    "name": "Lee Dohm",
+    "email": "lee@lee-dohm.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lee-dohm/set-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Creates easy Command Palette commands for setting the syntax of the current file",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lee-dohm/set-syntax#readme",
+  "keywords": [
+    "grammar",
+    "syntax",
+    "command",
+    "sublime",
+    "compatibility"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "set-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-dohm/set-syntax.git"
+  },
+  "version": "0.4.0"
+}

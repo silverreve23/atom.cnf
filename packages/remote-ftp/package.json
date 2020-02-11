@@ -1,0 +1,73 @@
+{
+  "_from": "https://www.atom.io/api/packages/remote-ftp/versions/2.2.4/tarball",
+  "_id": "remote-ftp@2.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-ZjVzTX+MQ0X/bP0SFm0z8Aww9Y1KXpVnURzloF6OrI0mGHLSHYtBHQduPeYbS/oTqBsd3QAv/VaIpMHw4Aw2EQ==",
+  "_location": "/remote-ftp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/remote-ftp/versions/2.2.4/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/remote-ftp/versions/2.2.4/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/remote-ftp/versions/2.2.4/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/remote-ftp/versions/2.2.4/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/remote-ftp/versions/2.2.4/tarball",
+  "_shasum": "28e4bc3ef25407d47cbab7eb16ed7614b70bb33c",
+  "_spec": "https://www.atom.io/api/packages/remote-ftp/versions/2.2.4/tarball",
+  "_where": "/tmp/apm-install-dir-12017-14753-kw816h.s1syh",
+  "activationCommands": [],
+  "bugs": {
+    "url": "https://github.com/icetee/remote-ftp/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "file-icons.element-icons": {
+      "versions": {
+        "1.0.0": "consumeElementIcons"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "@icetee/ftp": "^1.0.5",
+    "atom-space-pen-views": "^2.2.0",
+    "cson-parser": "^3.0.0",
+    "event-kit": "^2.5.3",
+    "fs-plus": "^3.1.1",
+    "ignore": "^4.0.6",
+    "ssh-config": "^3.0.0",
+    "ssh2": "^0.8.7",
+    "ssh2-streams": "^0.4.8",
+    "strip-json-comments": "^2.0.1"
+  },
+  "deprecated": false,
+  "description": "Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "engines": {
+    "atom": ">=1.22.1 <2.0.0"
+  },
+  "homepage": "https://github.com/icetee/remote-ftp#readme",
+  "license": "MIT",
+  "main": "./lib/remote-ftp",
+  "name": "remote-ftp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icetee/remote-ftp.git"
+  },
+  "version": "2.2.4"
+}

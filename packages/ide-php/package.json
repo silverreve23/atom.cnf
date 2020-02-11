@@ -1,0 +1,142 @@
+{
+  "_from": "https://www.atom.io/api/packages/ide-php/versions/0.7.18/tarball",
+  "_id": "ide-php@0.7.18",
+  "_inBundle": false,
+  "_integrity": "sha512-4ifwU10YRPtHcmotpGzwwyl7mtIIntITNy+Jmr8qbJx5IWnB3FWO0PHQmco7ZXbUCvvGpc8GjHOoYJpcuMNBXg==",
+  "_location": "/ide-php",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/ide-php/versions/0.7.18/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/ide-php/versions/0.7.18/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/ide-php/versions/0.7.18/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/ide-php/versions/0.7.18/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/ide-php/versions/0.7.18/tarball",
+  "_shasum": "f201f92434715a97aab8c9b053d9a3d059fa32a3",
+  "_spec": "https://www.atom.io/api/packages/ide-php/versions/0.7.18/tarball",
+  "_where": "/tmp/apm-install-dir-119310-3152-nb5jho.awwr",
+  "atomTestRunner": "./test/runner",
+  "bugs": {
+    "url": "https://github.com/atom/ide-php/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "phpPath": {
+      "title": "PHP Path",
+      "type": "string",
+      "default": "",
+      "description": "Absolute path of your PHP 7 binary (e.g. `/usr/local/bin/php` or `c:\\php7\\php.exe`) if not in PATH or PHP_HOME. This is used to launch the PHP language server."
+    },
+    "memoryLimit": {
+      "title": "Memory Limit",
+      "type": "string",
+      "default": "-1",
+      "description": "Maximum amount of memory the local PHP language server can use. [Number][K|M|G]. Use '-1' to allow unlimited RAM use."
+    },
+    "connectionType": {
+      "title": "Connection Type",
+      "type": "string",
+      "enum": [
+        "auto",
+        "socket",
+        "stdio"
+      ],
+      "default": "auto",
+      "description": "The connection type for communicating with the local PHP language server. 'auto' will use 'socket' on Windows, 'stdio' on other platforms."
+    },
+    "autocompletePriority": {
+      "title": "AutoComplete suggestion pritority",
+      "type": "string",
+      "enum": [
+        "default",
+        "lower"
+      ],
+      "default": "default",
+      "description": "Set 'lower' if you want to see LSP suggestions under the suggestions from the Autocomplete package. Restart required."
+    }
+  },
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeLinterV2"
+      }
+    },
+    "atom-ide-busy-signal": {
+      "versions": {
+        "0.1.0": "consumeBusySignal"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    },
+    "signature-help": {
+      "versions": {
+        "0.1.0": "consumeSignatureHelp"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-languageclient": "0.9.9",
+    "decompress": "^4.2.0"
+  },
+  "deprecated": false,
+  "description": "PHP language support for Atom-IDE",
+  "engines": {
+    "atom": ">=1.21.0"
+  },
+  "enhancedScopes": [
+    "text.html.php"
+  ],
+  "homepage": "https://github.com/atom/ide-php#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "ide-php",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "4.0.0": "provideAutocomplete"
+      }
+    },
+    "code-format.range": {
+      "versions": {
+        "0.1.0": "provideCodeFormat"
+      }
+    },
+    "code-highlight": {
+      "versions": {
+        "0.1.0": "provideCodeHighlight"
+      }
+    },
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    },
+    "find-references": {
+      "versions": {
+        "0.1.0": "provideFindReferences"
+      }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/ide-php.git"
+  },
+  "scripts": {
+    "server-install": "rm -rf vendor && rm -rf composer.lock && composer install --prefer-dist --no-dev && composer dump-autoload --optimize",
+    "server-package": "7z a temp.tar ./vendor/* && 7z a php-ls-x.y.z.tar.gz temp.tar && rm -f temp.tar"
+  },
+  "version": "0.7.18"
+}

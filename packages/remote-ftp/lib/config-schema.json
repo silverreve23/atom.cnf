@@ -1,0 +1,149 @@
+{
+  "connector": {
+    "type": "object",
+    "title": "Connector strategies",
+    "properties": {
+      "autoUploadOnSave": {
+        "type": "string",
+        "title": "Auto Upload On Save",
+        "default": "always",
+        "enum": ["always", "only when connected", "never"],
+        "order": 1
+      },
+      "sshConfigPath": {
+        "type": "string",
+        "title": "SSH Config Path",
+        "default": "~/.ssh/config",
+        "description": "Absolute path to your SSH config file (eg. ~/.ssh/config)",
+        "order": 2
+      }
+    },
+    "order": 1
+  },
+  "tree": {
+    "type": "object",
+    "title": "Tree view strategies",
+    "properties": {
+      "showProjectName": {
+        "type": "string",
+        "title": "Text for project name",
+        "default": "host",
+        "enum": ["/", "host", "hostName", "remote"],
+        "order": 1
+      },
+      "showViewOnStartup": {
+        "type": "boolean",
+        "title": "Show View On Startup",
+        "description": "Every startup show View",
+        "default": true,
+        "order": 2
+      },
+      "showHiddenFiles": {
+        "type": "boolean",
+        "title": "Show Hidden Files",
+        "description": "Show hidden files in View",
+        "default": true,
+        "order": 3
+      },
+      "enableDragAndDrop": {
+        "type": "boolean",
+        "title": "Enable Drag and Drop",
+        "description": "Interactive method can be blocked",
+        "default": true,
+        "order": 4
+      }
+    },
+    "order": 2
+  },
+  "statusbar": {
+    "type": "object",
+    "title": "Statusbar strategies",
+    "properties": {
+      "enable": {
+          "type": "boolean",
+          "title": "Enable Statusbar",
+          "description": "Show icon in statusbar",
+          "default": false,
+          "order": 1
+      },
+      "position": {
+        "type": "string",
+        "enum": ["left", "right"],
+        "title": "Set side display",
+        "description": "You can set which side to display",
+        "default": "left",
+        "order": 2
+      },
+      "priority": {
+        "type": "number",
+        "title": "Priority",
+        "description": "This can be used to adjust the position",
+        "default": -1010,
+        "order": 3
+      }
+    },
+    "order": 3
+  },
+  "context": {
+    "type": "object",
+    "title": "Context menu strategies",
+    "properties": {
+      "enableCopyFilename": {
+        "type": "boolean",
+        "title": "Enable Copy Filename",
+        "description": "Show Copyfilename function in contextmenu",
+        "default": true,
+        "order": 1
+      }
+    },
+    "order": 4
+  },
+  "notifications": {
+    "type": "object",
+    "title": "Notification strategies",
+    "properties": {
+      "enableTransfer": {
+        "type": "boolean",
+        "title": "Enable transfer",
+        "description": "Notification when uploading file.",
+        "default": false,
+        "order": 1
+      },
+      "enableWatchFileChange": {
+        "type": "boolean",
+        "title": "Enable Watch File Change",
+        "description": "Notification when change file.",
+        "default": false,
+        "order": 2
+      }
+    },
+    "order": 5
+  },
+  "beta": {
+    "type": "object",
+    "title": "Beta strategies",
+    "properties": {
+        "multipleHosts": {
+          "type": "boolean",
+          "title": "",
+          "default": false,
+          "order": 1
+        }
+    },
+    "order": 6
+  },
+  "dev": {
+    "type": "object",
+    "title": "Development strategies",
+    "properties": {
+        "debugResponse": {
+          "type": "boolean",
+          "title": "Debug Response",
+          "description": "Add communication text in console.",
+          "default": false,
+          "order": 1
+        }
+    },
+    "order": 7
+  }
+}

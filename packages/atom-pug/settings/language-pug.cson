@@ -1,0 +1,3 @@
+'.source.pug':
+  'editor':
+    'commentStart': '//- '

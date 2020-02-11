@@ -3,7 +3,135 @@ Change Log
 All notable changes to the project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-[Unpublished]: https://github.com/file-icons/atom/compare/v2.1.30...HEAD
+[Unpublished]: https://github.com/file-icons/atom/compare/v2.1.39...HEAD
+
+
+[v2.1.39] - 2020-02-07
+----------------------
+### Added
+- **New icons:** 4D (`.4dm`), A+ (`.a+`, `.+`), Agda (`.agda`, `.lagda`), Analytica (`.ana`), Bison (`.bison`, `.y`, `.yacc`, `.yy`), C#, C++, Cuneiform (`.cfl`), Curl (language), Curry (`.curry`), ECLiPSe (`.ecl`), Expo (`.expo{,-shared}` directories), Futhark (`.fut`), Galaxy (`galaxy.ini`), GAUSS (`.gss`), Hop (`.hop`), KNIME, Lefthook (`lefthook{,-local}.yml`), Lex (`.l`, `.lex`, `.flex`), Mono, Nemerle, Nessus (`.nasl`), Next.js (`next.config.js`), OpenStack, Pure (`.pure`), SAC (`.sac`), Semantic Release (`.releaserc{,.js,.json,.yaml,.yml}`), Sophia (`.aes`), Stdlib.js (`stdlib-*{.js,.js.gz}`), UFO (`*.ufo` directories), Unicode (`UNIDATA/*.txt`, `UnicodeData.txt`), Vala (`.vala`, `.vapi`), Wenyan (`.wy`)
+- **Support:** ESLint (`.eslintrc.{cjs,mjs}`), Grunt (`gruntfile*.{cjs,jsx,mjs,ts,tsx}`), Gulp (`gulpfile*.{cjs,jsx,mjs,ts,tsx}`), Lasso (`.lassoapp`), Lua (`lakefile`, `.rockspec`, `.luacheckrc`), Jest (`.jestrc{,.*}`, `jest.config.{cjs,jsx,mjs,ts,tsx}`), Python config (`pyproject.toml`), Webpack (`webpack*.{cjs,mjs,coffee}`), WiX (`.wix`), Yarn (`.yarn` directories)
+- **Interpreter recognition:** JavaScript ([`slimerjs`][])
+- Colour variations for PL/SQL files
+
+[v2.1.39]:    https://github.com/file-icons/atom/releases/tag/v2.1.39
+[`slimerjs`]: https://slimerjs.org/
+
+
+
+[v2.1.38] - 2020-01-11
+----------------------
+### Added
+- **New icons:** Adobe, Adobe Acrobat, Adobe Animate (`.fla`), Adobe Audition, Adobe Bridge, Adobe CC, Adobe Character Animator, Adobe Dimension, Adobe Dreamweaver, Adobe Flash, Adobe Fuse, Adobe InCopy, Adobe Lightroom, Adobe Media Encoder, Adobe Prelude, Adobe Rush, Adobe XD, AGC, AMD, ARM, Assembly: AGC (`.agc`), Assembly: AMD, Assembly: ARM (`.arm`), Assembly: ATT, Assembly: AVR (`.avr`), Assembly: Generic (`.a`, `.i`, `.s`, `.asm`, `.a51`), Assembly: Hitachi (`.h8s`, `.h8sx`, `.h8300`), Assembly: Intel (`.x86`, `.x64`, `.i32`, `.i64`, `.i386`), Assembly: Motorola (`.m68k`, `.lst`), Assembly: PowerPC, Assembly: RISCV, Assembly: SPARC, Assembly: VAX (`.vax`, `.vasm`), Assembly: Zilog (`.z80`, `.PLX`, `.PLXCOPY`), ATT/Bell Labs, AVR, Cheetah3D (`.jas`), Computable Document Format (`.cdf`), Dhall (`.dhall`), DocBook (`.dbk`, `.docbook`), Final Draft (`.fdx`), GenStat (`.gen`, `.gpi`), Hitachi, Intel, LilyPond (`.ly`, `.ily`), Modo (`.lxo`), Motorola, PowerPC, R database (`.Rdata`, `.rdb`, `.rds`, `.rdx`), Reason Studios (`.reason`, `.rns`, `.rsn`, `.rx2`, `.sxt`), RISC-V, SPARC, VAX, Yorick (`.yorick`), Zilog
+- **Support:** 3D asset (`.c4d`, `.dwg`, `.dxf`, `.jas`, `.lxo`, `.ply`), Audio (`.it`, `.s3m`, `.sndh`), Ballerina (`.balx`), BibTeX (`.bibtex`), Binary (`.pyd`), COLLADA (`.collada`), Compressed (`.dsk`, `.ear`), Config (`.cnf`), Database (`.dbi`, `.od`, `.onlydata`), Dephi (`.dof`), Generic code (`.jspx`, `.tagx`), Generic test (`t/[0-9]-*.sh`), Handlebars (`.hbt`), Help file (`.chm`, `.hlp`), HTML (`.jspf`), Image (`.jng`, `.wbmp`), Java (`.class`), JavaScript test (`*-{test,spec}.cjs`, `t/[0-9.]-*.{cjs,mjs,js}`), JSON (`.rsj`), Markdown (`.mdtext`, `.mdtxt`), MATLAB (`.mdlp`, `.mltbx`, `.mn`, `.mlappinstall`, `.mlpkginstall`, `.sldd`, `.slx`, `.slxp`), Pascal (`.lfm`, `.lpi`, `.lpk`, `.lps`, `.lrs`, `.lrt`, `.or`, `.ppu`), PHP (`.engine`, `.phar`), Pickle (`.pickle`), PostScript (`.epsf`, `.epsi`), Python (`.pyz`), Readme (`COPYRIGHT`), Tags (`.tld`), Text (`.stderr`, `.stdout`), Themes (`.theme`), Unity3D (`.cubemap`, `.physic{,s}Material{,2D}`, `.unitypackage`), Video (`.asx`), VSCode (`.dbproj`, `.lsproj`, `.modelproj`, `.vcxitems`)
+
+### Fixed
+- Missing [Ballerina](https://ballerina.io/) icon
+
+[v2.1.38]: https://github.com/file-icons/atom/releases/tag/v2.1.38
+
+
+
+[v2.1.37] - 2019-12-20
+----------------------
+### Added
+- **New icons:** Conda (`.condarc`), Dependabot (`.dependabot` directories), Faust (`.dsp`), Gnuplot, Oberon (`.ob2`), Patreon (`PATRONS.md`), Razzle (`razzle.config.*`), Stylish Haskell (`.stylish-haskell.yaml`), Terser (`.{terserrc,uglifyrc}.*`), Truffle (`truffle.js`), WASI, Zeit (`now.json`, `.nowignore`)
+- **Support:** Firestore (`firestore.indexes.json`), Gridsome (`gridsome.{client,server}.*`), JavaScript (`**/cartridge/scripts/**/*.ds`), JSON (`.jsonc`), Ledger (`.ledger`, `.hledger`, `.journal`), Mocha (`.mocharc.{jsonc,cjs,mjs}`), Modernizr (`.modernizr{,rc}.js`), Raku (`.raku`, `.rakumod`, `.rakutest`), Shell (`.dircolors`, `dircolors`), VSCode (`.code-workspace`), YAML (`.yaml.mysql`, `.yaml.sed`)
+- **Interpreter recognition:** JavaScript ([`gjs`][], [`mujs`][], [`qjs{,bn,bnc,c}`][QuickJS]), WebAssembly ([`wasmtime`][])
+
+### Changed
+- Renamed Perl 6 to Raku
+
+[v2.1.37]:    https://github.com/file-icons/atom/releases/tag/v2.1.37
+[`gjs`]:      https://gitlab.gnome.org/GNOME/gjs/wikis/Home
+[`mujs`]:     https://www.mujs.com/
+[`wasmtime`]: https://wasmtime.dev/
+[QuickJS]:    https://bellard.org/quickjs/
+
+
+
+[v2.1.36] - 2019-10-19
+----------------------
+### Added
+- **New icons:** AdvPL (`.ahu`, `.aph`, `.prw`, `.tlpp`), AmuseWiki (`.muse`), Hyper (`.hyper.js`), mIRC (`.mrc`), Noon (`.noon`), Odin (`.odin`), Open Policy Agent (`.rego`), Sorbet (`.rbi`), Vyper (`.vy`), Webhint (`.hintrc`), Wget (`.wgetrc`, `.wget-hsts`)
+- **Support:** CPAN (`.cpanplus` directories), cURL (`_curlrc`, `curlrc`), Haskell (`.hs-boot`, `.hsig`), Jest (`.{ts,tsx,mjs}.snap`), JFlex (`.jlex`), NodeJS (`.node_repl_history`, `.node-gyp` directories), Tag (`.sha{256,sum}`), Vim (`.vim` directories)
+
+### Changed
+- Replaced V's icon with updated logo
+
+### Fixed
+- Incorrect scope-name used when matching a grammar override for V
+
+[v2.1.36]: https://github.com/file-icons/atom/releases/tag/v2.1.36
+
+
+
+[v2.1.35] - 2019-08-21
+----------------------
+### Added
+- **New icons:** AffectScript (`.affect`), Alacritty (`.alacritty.yml`, `.config/alacritty` folders), Biml (`.biml`), BNF (`.abnf`, `.bnf`, `.ebnf`), MELPA, NSRI (`.nsri{rc,ignore}{,.{{,config.}js,json,yml,yaml}}`, `.integrity.json`), PineScript (`.pine`), PyUp (`.pyup`, `.pyup.{yml,yaml}`), Renovate (`.renovaterc.json`, `renovate.json`), V (`.v`, `.vh`)
+- **Support:** Sequelize (`.sequelizerc.{js,json}`)
+
+[v2.1.35]: https://github.com/file-icons/atom/releases/tag/v2.1.35
+
+
+
+[v2.1.34] - 2019-08-13
+----------------------
+### Added
+- **Support:** Atom (`.atom-ci` folders), Data (`.aff`, `.dic`, `.dict`, `.snippet`, `.snippets`, `.snip`), Images (`.gsrc`, `.grn`), Istanbul (`.nycrc.{yml,yaml}`, `nyc.config.js`, `.nyc_output` folders), Minecraft (`.mclevel`, `.mcpack`, `.mcworld`)
+- Test-file icons to numbered JS/TS files inside a directory named `test{s}` or `spec{s}`
+
+[v2.1.34]: https://github.com/file-icons/atom/releases/tag/v2.1.34
+
+
+
+[v2.1.33] - 2019-06-01
+----------------------
+### Added
+- **New icons:** Acre Desktop (`acre.config`, `.acre`, `APLSource`), Docz (`.doczrc.{js,json}`, `.docz`), Fexl (`.fxl`), InfluxData, Jsonnet (`.jsonnet`, `.libsonnet`), MacVim, Matroska, Picolisp, Remark (`.re{hype,mark,text}rc.{js,json,yml,yaml}`, `.re{hype,mark,text}ignore`), Robot Framework (updated), Scratch (`.sb2`, `.sb3`), VSCode (alt), WebVTT (`.vtt`)
+- **Support:** Kubernetes (`kubernetes*.yml`), Tagfile (`.atom-socket-*`)
+
+### Changed
+- `.l` extension now associated with Lex instead of Lisp
+
+### Fixed
+- Awk not being recognised when overriding a file's grammar
+- Inkscape icon missing for `.inx` files
+
+[v2.1.33]: https://github.com/file-icons/atom/releases/tag/v2.1.33
+
+
+
+[v2.1.32] - 2019-04-25
+----------------------
+### Added
+- **New icons:** Azure Pipelines (`azure-pipelines.yaml`, `.azure-pipelines` directories), Digdag (`.dig`), doT.js, FreeDesktop, Greenkeeper (`greenkeeper.json`), Kubernetes (`.kazelcfg.json`), Magit, Moleculer (`moleculer.config.{js,json,ts}`), Nightwatch (`nightwatch.{conf,config}.js`), Nintendo 64 ROMs (`.n64`, `.z64`), OpenAPI, Sentry (`.sentryclirc`), Snapcraft (`snapcraft.yaml`), Svelte (`.svelte`), Zork (`.zap`, `.xzap`, `.zabst`, `.zabstr`, `.zil`, `.mud`)
+- **Generic language-specific configs:** CoffeeScript (`coffeelint.json`, `.coffeelintignore`), Go (`go.mod`, `go.sum`), Haskell (`haskellconfig.json`), JavaScript (`jsconfig{.*}.json`), Perl (`perlconfig.json`), Python (`pythonconfig.json`), React (`jsxconfig.json`), Ruby (`rubyconfig.json`), Rust (`rustconfig.json`), TypeScript (`tsconfig{.*}.json`, `tslint.json`)
+- **Generic language-specific test-files:** Go (`*.{test,spec}.go`), Haskell (`*.{test,spec}.{hs,hsc,c2hs,lhs}`), Rust (`*.{test,spec}.rs`)
+- **File support:** APL (`.apl[acfino]`), Bazel (`.gazelcfg.json`), Diff (`.diffs`), DOSBox (`dosbox.conf`), Dyalog APL (`.dyapp`, `.mipage`), HolyC (`.hc`, `.hc.z`)
+- **Hashbang support:** JavaScript (`chakra`, `d8`, `js`, `rhino`, `v8`, `v8-shell`), TypeScript (`deno`, `tsc`, `ts-node`)
+
+### Changed
+- `go.mod` and `go.sum` files now use generic config icons
+
+### Fixed
+- `.light-yellow` colour-swatch not adjusting to light-coloured themes
+- Markdown icon not appearing on grammar-override for users of [`language-markdown`](https://atom.io/packages/language-markdown)
+
+[v2.1.32]: https://github.com/file-icons/atom/releases/tag/v2.1.32
+
+
+
+[v2.1.31] - 2019-03-16
+----------------------
+### Added
+- **New icons:** ElementaryOS, Gravit Designer (`.gvdesign`), Manjaro, OpenIndiana, QT (`.qml`, `.qbs`, `.qmlproject`), Xubuntu, ZorinOS
+- **Directory support:** Cabal (`.cabal`), CPAN (`.cpan`), Deno (`.deno`), Vagrant (`.vagrant.d`)
+- **File support:** Sass (`.sassrc`, `.sassrc.js`)
+
+[v2.1.31]: https://github.com/file-icons/atom/releases/tag/v2.1.31
+
 
 
 [v2.1.30] - 2019-02-19
@@ -13,7 +141,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - **Support:** Cabal (`cabal.*`, `cabal-ghcjs.project`), Go (`go.mod`, `go.sum`), Hack (`.hack`, `.hhi`), Images (`.pbm`, `.pgm`, `.ppm`, `.pnm`), JavaScript (`.cjs`), Manpage (`.3p`, `.3perl`, `.3pm`), Microsoft Excel (`.xla`, `.xlam`, `.xltm`, `.xltx`), Package (`.packages`, `pubspec.{lock,yaml}`), Separated-value file (`.prn`), Vim (`.vmb`), VirtualBox (`.ova`, `.ovf`, `.vhd`, `.vhdx`, `.vbox_version`), z/VM Assembly (`.PLX`, `.PLXCOPY`)
 - New colour swatch for greyscale icons
 
-# Changed
+### Changed
 - `.vhd` files now use VirtualBox icon instead of VHDL
 - Mercurial icons now use greyscale swatches
 

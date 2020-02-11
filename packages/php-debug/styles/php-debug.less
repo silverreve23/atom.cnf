@@ -1,0 +1,33 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import (inline) "../iconsets/materialdesignicons.css";
+
+.atom-debug-ui {
+  .action-bar {
+    .pathmaps-btn {
+     float:left;
+    }
+  }
+  .default-breakpoints-view {
+    .breakpoint-enabled {
+      margin-right: 1em;
+    }
+    .default-breakpoints-header {
+      display:block;
+      font-weight:bold;
+      margin-left: 1em;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+.atom-debug-ui-console {
+  .redirect-stderr-btn.btn-active,
+  .redirect-stdout-btn.btn-active {
+    background-color: @background-color-info;
+    background-image: -webkit-linear-gradient(@background-color-info, darken(@background-color-info, 8%));
+    color: #FFF;
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_from": "https://www.atom.io/api/packages/print-code/versions/0.7.1/tarball",
+  "_id": "print-code@0.7.1",
+  "_inBundle": false,
+  "_integrity": "sha512-pkT8YxgE5Vw0Wd9JSqbsjgDLfIvsJPNunl/W/TOVzcCQ+m6kZWwMStYVwbOrOibmyetl3liywy9th4jKJiFTpQ==",
+  "_location": "/print-code",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/print-code/versions/0.7.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/print-code/versions/0.7.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/print-code/versions/0.7.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/print-code/versions/0.7.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/print-code/versions/0.7.1/tarball",
+  "_shasum": "06d91dd4548d715ee515060533ce65280193ed0d",
+  "_spec": "https://www.atom.io/api/packages/print-code/versions/0.7.1/tarball",
+  "_where": "/tmp/apm-install-dir-119527-11238-1sw18ci.gplo",
+  "activationCommands": {
+    "atom-workspace": [
+      "print-code:print",
+      "print-code:reset"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/mochizukikotaro/print-code/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "deprecated": false,
+  "description": "Print souce code which in active pane",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mochizukikotaro/print-code#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/print-code",
+  "name": "print-code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mochizukikotaro/print-code.git"
+  },
+  "version": "0.7.1"
+}

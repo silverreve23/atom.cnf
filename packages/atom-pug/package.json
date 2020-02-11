@@ -1,0 +1,54 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-pug/versions/0.2.0/tarball",
+  "_id": "atom-pug@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-u3c3K0n541zOFkL9GkeALVvETdLAZENphdz73oxdub2Hokud/6BZSu21oOG5/hcHNyq4F0mhI/OMtPFz2Mlzjw==",
+  "_location": "/atom-pug",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-pug/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-pug/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-pug/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-pug/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-pug/versions/0.2.0/tarball",
+  "_shasum": "4e4e21080fefab0ac70cd9168f6300b3c71d8cf2",
+  "_spec": "https://www.atom.io/api/packages/atom-pug/versions/0.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-119728-17699-14exqty.upqn",
+  "author": {
+    "name": "Leon Schwanitz",
+    "email": "leon@voxelboxstudios.com"
+  },
+  "bugs": {
+    "url": "https://github.com/leonschwanitz/atom-pug/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Pug language support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/leonschwanitz/atom-pug",
+  "keywords": [
+    "atom",
+    "jade",
+    "pug"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "atom-pug",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonschwanitz/atom-pug.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.0"
+}

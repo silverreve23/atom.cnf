@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Print print-code",
+        "command": "print-code:print"
+      },
+      {
+        "label": "Print print-reset",
+        "command": "print-code:reset"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "print-code",
+          "submenu": [
+            {
+              "label": "Print",
+              "command": "print-code:print"
+            },
+            {
+              "label": "Reset",
+              "command": "print-code:reset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

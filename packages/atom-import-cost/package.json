@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-import-cost/versions/1.2.0/tarball",
+  "_id": "atom-import-cost@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-C8GAf1Rq9sshQsDUU63Y1QcOcZ5Rv4cjlWcR30rEwOMhRSXYR2z265Vo6suF9MltbX8drwZdPPxEiFsr6JKfSA==",
+  "_location": "/atom-import-cost",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-import-cost/versions/1.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-import-cost/versions/1.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-import-cost/versions/1.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-import-cost/versions/1.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-import-cost/versions/1.2.0/tarball",
+  "_shasum": "f060f3af7f0f9f4e7962a20377532a7914d0d3f0",
+  "_spec": "https://www.atom.io/api/packages/atom-import-cost/versions/1.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-120029-24890-vvrkh9.1o4kp",
+  "bugs": {
+    "url": "https://github.com/siddharthkp/atom-import-cost/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bytes": "2.5.0",
+    "import-cost": "^1.2.2"
+  },
+  "deprecated": false,
+  "description": "Get the size of your dependencies",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/siddharthkp/atom-import-cost#readme",
+  "keywords": [
+    "size"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "atom-import-cost",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthkp/atom-import-cost.git"
+  },
+  "version": "1.2.0"
+}

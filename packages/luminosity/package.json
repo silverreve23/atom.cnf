@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/luminosity/versions/1.0.0/tarball",
+  "_id": "luminosity@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-VV7GAUPSj/1BxPSeTpNRfQEN5MC3NnAbyYtMuXgvvD5KF5EybfBifxrDKO3s5UOu3r9ZKdEGgCaiiOKD9tNXJg==",
+  "_location": "/luminosity",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/luminosity/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/luminosity/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/luminosity/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/luminosity/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/luminosity/versions/1.0.0/tarball",
+  "_shasum": "5e3fe92b6575032a84c397b7b0f3c03123dd9cf4",
+  "_spec": "https://www.atom.io/api/packages/luminosity/versions/1.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-120111-9526-12qc3fk.gks",
+  "author": {
+    "name": "Dmitry Kovalenko"
+  },
+  "bugs": {
+    "url": "https://github.com/zerodayyy/luminosity/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Luminosity Light Theme",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/zerodayyy/luminosity#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "luminosity",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerodayyy/luminosity.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.0"
+}

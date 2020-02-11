@@ -1,0 +1,63 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.tree-view.full-menu, .tree-view .full-menu': [
+      { type: 'separator' },
+      { label: 'Upload', command: 'remote-ftp:upload-selected' },
+      { label: 'Download', command: 'remote-ftp:download-selected-local' },
+      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' },
+      { label: 'Toggle Tree', command: 'remote-ftp:toggle' }
+    ]
+  '.tree-view.multi-select, .tree-view .multi-select': [
+      { type: 'separator' },
+      { label: 'Upload', command: 'remote-ftp:upload-selected' },
+      { label: 'Download', command: 'remote-ftp:download-selected-local' },
+      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' },
+      { label: 'Toggle Tree', command: 'remote-ftp:toggle' }
+    ]
+  '.remote-ftp-view .list-tree.full-menu, .remote-ftp-view .list-tree .full-menu': [
+      { label: 'Add File', command: 'remote-ftp:add-file' },
+      { label: 'Add Folder', command: 'remote-ftp:add-folder' },
+      { label: 'Rename', command: 'remote-ftp:move-selected' },
+      { label: 'Download', command: 'remote-ftp:download-selected' },
+      { label: 'Refresh', command: 'remote-ftp:refresh-selected' },
+      { label: 'Permissions', command: 'remote-ftp:permission-selected' },
+      { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' },
+      { label: 'Delete', command: 'remote-ftp:delete-selected' },
+      { label: 'Toggle Tree', command: 'remote-ftp:toggle' },
+      { label: 'Disconnect', command: 'remote-ftp:disconnect' }
+    ]
+  '.remote-ftp-view .list-tree.multi-select, .remote-ftp-view .list-tree .multi-select': [
+      { label: 'Download', command: 'remote-ftp:download-selected' },
+      { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' }
+    ]
+  'atom-text-editor': [
+      { label: 'Upload', command: 'remote-ftp:upload-active' },
+    ]
+
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Remote FTP'
+      'submenu': [
+        { label: 'Toggle', command: 'remote-ftp:toggle' },
+        { label: 'Connect', command: 'remote-ftp:connect' },
+        { label: 'Disconnect', command: 'remote-ftp:disconnect' },
+        { label: 'Navigate to', command: 'remote-ftp:navigate-to' },
+        { label: 'Create ignore file', command: 'remote-ftp:create-ignore-file' },
+        { label: 'Create FTP config file', command: 'remote-ftp:create-ftp-config' },
+        { label: 'Create SFTP config file', command: 'remote-ftp:create-sftp-config' },
+      ]
+    ]
+  }
+]
+
+'atom-workspace': [{ label: 'Help', command: 'application:open-documentation' }]
+'atom-text-editor': [{
+  label: 'History',
+  submenu: [
+    { label: 'Undo', command:'core:undo' }
+    { label: 'Redo', command:'core:redo' }
+  ]
+}]

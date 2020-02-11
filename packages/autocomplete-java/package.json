@@ -1,0 +1,75 @@
+{
+  "_from": "https://www.atom.io/api/packages/autocomplete-java/versions/1.2.7/tarball",
+  "_id": "autocomplete-java@1.2.7",
+  "_inBundle": false,
+  "_integrity": "sha512-rnCMG0nDbpPBxwWufszJF1orDeeZGro7julPrzkycp/pb64uXhJVNkXlolWqnPjeYhQ73bqXYMI98K6F9EyT8A==",
+  "_location": "/autocomplete-java",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/autocomplete-java/versions/1.2.7/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/autocomplete-java/versions/1.2.7/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/autocomplete-java/versions/1.2.7/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/autocomplete-java/versions/1.2.7/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/autocomplete-java/versions/1.2.7/tarball",
+  "_shasum": "35de590ec7390ccc25ab50f736489c3946d01949",
+  "_spec": "https://www.atom.io/api/packages/autocomplete-java/versions/1.2.7/tarball",
+  "_where": "/tmp/apm-install-dir-12014-1334-3yq8w.0h20xj",
+  "activationCommands": {
+    "atom-workspace": [
+      "autocomplete-java:organize-imports",
+      "autocomplete-java:refresh-project",
+      "autocomplete-java:full-refresh"
+    ]
+  },
+  "activationHooks": [
+    "language-java:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/keskiju/autocomplete-java/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "3.10.1",
+    "triejs": "0.1.5",
+    "walk": "2.3.9"
+  },
+  "deprecated": false,
+  "description": "Autocomplete-plus provider for Java",
+  "devDependencies": {
+    "babel-core": "^5.8.24",
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.4.3",
+    "eslint-config-airbnb": "^0.1.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/keskiju/autocomplete-java#readme",
+  "keywords": [
+    "java",
+    "autocomplete-plus",
+    "autocomplete",
+    "import"
+  ],
+  "license": "MIT",
+  "main": "./lib/atomAutocompletePackage",
+  "name": "autocomplete-java",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keskiju/autocomplete-java.git"
+  },
+  "version": "1.2.7"
+}

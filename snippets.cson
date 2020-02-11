@@ -48,13 +48,48 @@
     'body': '/**\n * $0\n */'
   'class …':
     'prefix': 'class'
-    'body': '\nclass ${2:ClassName} ${3:extends ${4:AnotherClass}}{\n\t$5\n\tfunction ${6:__construct}(${7:argument}){\n\n\t\t${0:# code...}\n\n\t}\n\n}\n'
+    'body': '
+	    #------------------------------------------------------------------------------
+		\n# @class ${2:ClassName}
+		\n# @extends ${4:AnotherClass}
+		\n# @implements ImplementInterface
+		\n# Class hundle ...
+		\n#------------------------------------------------------------------------------
+        \nclass ${2:ClassName} ${3:extends ${4:AnotherClass} implements ImplementInterface} {\n\tpublic function ${6:__construct}($${7:argument}){\n\t\t${0:# code...}\n\t}\n}\n
+    '
   'interface …':
     'prefix': 'interface'
-    'body': '/**\n * $1\n */\ninterface ${2:InterfaceName}\n{\n\t${0:# code...}\n}\n'
+    'body': '
+	    #------------------------------------------------------------------------------
+		\n# @interface ${2:InterfaceName}
+		\n# @methods ${3:functionName}
+		\n# Interface for ...
+		\n#------------------------------------------------------------------------------
+        \ninterface ${2:InterfaceName} {
+    	    \n\t#--------------------------------------------------------------------------
+    		\n\t# @method ${2:functionName}
+    		\n\t# @params $${4:argument}
+    		\n\t# Metod hundle ...
+    		\n\t#--------------------------------------------------------------------------
+            \n\tpublic function ${3:functionName}($${4:argument});\n}\n
+    '
   'trait …':
     'prefix': 'trait'
-    'body': '/**\n * $1\n */\ntrait ${2:TraitName}{\n\tfunction ${3:functionName}(${4:argument})\n\t{\n\t\t${5:# code...}\n\t}\n}\n'
+    'body': '
+	    #---------------------------------------------------------------------------
+		\n# @trait ${2:TraitName}
+		\n# Trait for ...
+		\n#---------------------------------------------------------------------------
+        \ntrait ${2:TraitName}{
+    	    \n\t#--------------------------------------------------------------------------
+    		\n\t# @method ${2:functionName}
+    		\n\t# @access public
+    		\n\t# @params $${4:argument}
+    		\n\t# @return void
+    		\n\t# Metod hundle ...
+    		\n\t#--------------------------------------------------------------------------
+            \n\t${1:public }function ${3:functionName}($${4:argument}){\n\t\t${5:# code...}\n\t}\n}\n
+    '
   'define(…, …)':
     'prefix': 'def'
     'body': 'define(\'$1\', ${2:\'$3\'});\n$0'
@@ -82,14 +117,14 @@
   'function …':
     'prefix': 'fun'
     'body': '
-	    #---------------------------------------------------------------------------
+	    #--------------------------------------------------------------------------
 		\n# @method ${2:FunctionName}
 		\n# @access public
-		\n# @params void
+		\n# @params $${4:argument}
 		\n# @return void
 		\n# Metod hundle ...
-		\n#---------------------------------------------------------------------------
-		\n${1:public }function ${2:FunctionName}(){\n\n\t${0:# code...}\n\n}
+		\n#--------------------------------------------------------------------------
+		\n${1:public }function ${2:FunctionName}($${4:argument}){\n\t${0:# code...}\n}
 	'
   'anonymous function':
     'prefix': 'f',

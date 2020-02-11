@@ -9,6 +9,29 @@
     opacity: 0.8;
 }
 
+// atom-workspace-axis atom-panel-container,
+// atom-workspace-axis atom-workspace-axis{
+//     opacity: 0 !important;
+// }
+// atom-workspace-axis:hover atom-panel-container,
+// atom-workspace-axis:hover atom-workspace-axis{
+//     opacity: 1 !important;
+// }
+//
+// atom-workspace-axis::after{
+//     content: "🔑 Show you this great code?";
+//     font-size: 50px;
+//     position: absolute;
+//     top: 50%;
+//     display: block;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     color: gray;
+// }
+// atom-workspace-axis:hover::after{
+//     content: ""
+// }
+
 atom-text-editor, html{
   atom-text-editor-minimap{
       .open-minimap-quick-settings{
@@ -35,6 +58,12 @@ atom-text-editor-minimap{
     width: 200px !important;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap&subset=latin-ext,vietnamese');
+atom-text-editor.editor{
+    font-weight: 600;
+    font-family: 'Dosis', monospace;
+}
+
 atom-text-editor.editor atom-text-editor-minimap{
     background-color: transparent !important;
 }
@@ -47,8 +76,33 @@ status-bar.status-bar{
     background: black;
 }
 
+atom-pane .list-inline.tab-bar.inset-panel{
+    background: black;
+}
+
+atom-panel-container.bottom atom-panel{
+    background: black !important;
+    border-top: 1px solid gray;
+}
+
+atom-pane-container atom-pane .item-views .pane-item{
+    background: black;
+}
+
 ul .tab{
     background: black !important;
+}
+
+.preview-pane .preview-header{
+    background: black;
+}
+
+.tab-bar .tab{
+    border-left: none !important;
+}
+
+.tab-bar .tab:last-of-type{
+    box-shadow: none !important;
 }
 
 .tool-panel.tree-view{
@@ -72,16 +126,15 @@ ul .tab{
     background-color: red;
 }
 .editor{
-    line-height: 36px; font-style: italic;
+    line-height: 34px;
 }
 .cursor{
-    height: 20px !important; margin-top: 9px;
+    height: 20px !important; margin-top: 7px;
 }
 
 .tab-bar .tab::before{
 	background-color: transparent !important;
 }
-
 .tool-panel{
 	overflow: scroll;
 }
@@ -95,6 +148,97 @@ ul .tab{
 	color: #8DC149;
 }
 
-.file-colors .name.icon[data-name$=".php"], .file-colors .title[data-name$=".php"] {
+.file-colors .name.icon[data-name$=".php"], .file-colors .title[data-name$=".php"]{
     color: #00bc8a;
+}
+
+.wrap-guide{
+    background-color: #184a5e !important;
+}
+
+.gutter-container > div div {
+    background-color: #000000 !important;
+    color: gray;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection {
+    color: gray !important;
+}
+
+
+// php syntax style
+
+// function style
+// quote style
+// namespace class
+// class class
+// function function
+.syntax--punctuation.syntax--definition.syntax--array, .syntax--punctuation.syntax--definition.syntax--parameters, .syntax--punctuation.syntax--definition.syntax--string, .syntax--punctuation.syntax--definition.syntax--variable, .syntax--variable, .syntax--variable.syntax--language, .syntax--keyword.syntax--operator, .syntax--support.syntax--class,
+.syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class,
+.syntax--support.syntax--other.syntax--namespace.syntax--php,
+.syntax--storage.syntax--modifier.syntax--php,
+.syntax--storage.syntax--type.syntax--class.syntax--php,
+.syntax--storage.syntax--type.syntax--function.syntax--php,
+.syntax--meta.syntax--class {
+    color: #75a7c8;
+}
+
+// class style
+.syntax--punctuation.syntax--definition.syntax--array, .syntax--punctuation.syntax--definition.syntax--parameters, .syntax--punctuation.syntax--definition.syntax--string, .syntax--punctuation.syntax--definition.syntax--variable,
+.syntax--variable, .syntax--variable.syntax--language,
+.syntax--keyword.syntax--operator {
+    color: #80abfd;
+}
+
+
+// object name style
+// class name style
+// method object style
+// option object style
+.syntax--support.syntax--class.syntax--php,
+.syntax--entity.syntax--name.syntax--type.syntax--class.syntax--php,
+.syntax--variable.syntax--other.syntax--property.syntax--php,
+.syntax--support.syntax--function,
+.syntax--entity.syntax--name.syntax--function {
+    color: #82AAFF;
+}
+
+// if style
+// return style
+.syntax--keyword.syntax--control {
+    color: #239185;
+}
+
+// => style
+// = style
+// : left style
+// : right style
+// :: style
+.syntax--keyword.syntax--operator.syntax--key.syntax--php,
+.syntax--keyword.syntax--operator.syntax--assignment.syntax--php,
+.syntax--keyword.syntax--operator.syntax--ternary.syntax--php,
+.syntax--punctuation.syntax--terminator.syntax--statement.syntax--php,
+.syntax--keyword.syntax--operator.syntax--class.syntax--php {
+    color: white !important;
+}
+
+// variable style
+// constant style
+.syntax--punctuation.syntax--definition.syntax--array, .syntax--punctuation.syntax--definition.syntax--parameters, .syntax--punctuation.syntax--definition.syntax--string, .syntax--punctuation.syntax--definition.syntax--variable, .syntax--variable, .syntax--variable.syntax--language, .syntax--keyword.syntax--operator,
+.syntax--punctuation.syntax--terminator,
+.syntax--php.syntax--keyword.syntax--operator.syntax--assignment,
+.syntax--constant,
+.syntax--storage {
+    color: #fa5654;
+}
+
+// ; style
+.syntax--punctuation.syntax--terminator.syntax--expression.syntax--php {
+    color: gray;
+}
+
+// number style
+.syntax--string,
+.syntax--constant.syntax--numeric {
+    color: white;
 }

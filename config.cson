@@ -1,17 +1,48 @@
 "*":
+  "atom-beautify":
+    html: {}
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+      showDirectoryColumn: true
   core:
     autoHideMenuBar: true
     disabledPackages: [
       "github"
+      "linter"
     ]
     telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
   editor:
-    fontSize: 15
+    fontSize: 18
+    showIndentGuide: true
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "c0f77c43-d60f-47a7-902f-6a9f9b1bc351"
   highlighte:
     colorHighlighte: "#08bb72"
+  "linter-ui-default":
+    panelHeight: 300
+  "php-debug":
+    server:
+      serverAddress: "127.0.0.1"
+    showWelcome: false
+    xdebug:
+      pathMaps: "[{\"remotePath\":\"/home/sbk/Documents/programs/web/cultivist/public\",\"localPath\":\"/home/sbk/Documents/programs/web/cultivist/public/frontend\"}]"
+  "php-integrator-autocomplete-plus":
+    disableBuiltinAutocompletion: false
+  "remote-ftp":
+    connector:
+      sshConfigPath: "~/Documents/web/followit/backend/.ftpconfig"
+  "seti-syntax":
+    themeColor: "Yellow"
   welcome:
     showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "

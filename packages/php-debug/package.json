@@ -1,0 +1,326 @@
+{
+  "_from": "https://www.atom.io/api/packages/php-debug/versions/0.3.5/tarball",
+  "_id": "php-debug@0.3.5",
+  "_inBundle": false,
+  "_integrity": "sha512-hYrV0+eUKVocAt3Rtl9CmyOTrp8S7IuD6Q+OW/kiWEHrET/feFX+vxLww6/QMHUGw5vygkMsSsL4HSMZ8XNUMw==",
+  "_location": "/php-debug",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/php-debug/versions/0.3.5/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/php-debug/versions/0.3.5/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/php-debug/versions/0.3.5/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/php-debug/versions/0.3.5/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/php-debug/versions/0.3.5/tarball",
+  "_shasum": "53bd10320347547cffb92f6993f53ab3ff007869",
+  "_spec": "https://www.atom.io/api/packages/php-debug/versions/0.3.5/tarball",
+  "_where": "/tmp/apm-install-dir-12017-14177-1av4djy.t8mr",
+  "bugs": {
+    "url": "https://github.com/gwomacks/php-debug/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "server": {
+      "type": "object",
+      "order": 1,
+      "properties": {
+        "serverAddress": {
+          "title": "Server Listen Address",
+          "default": "*",
+          "type": "string",
+          "description": "The IP for the debug server to listen on. Use * for any (0.0.0.0)",
+          "order": 1
+        },
+        "serverPort": {
+          "title": "Server Listen Port",
+          "default": 9000,
+          "type": "integer",
+          "description": "The port for the debug server to listen on",
+          "order": 2
+        },
+        "keepAlive": {
+          "title": "Continue to listen for debug sessions even if the debugger windows are all closed",
+          "default": false,
+          "type": "boolean",
+          "description": "Allow PHP-Debug to continue to handle sessions after closing the windows. They will be reopened on new connections",
+          "order": 4
+        },
+        "protocolDebugging": {
+          "title": "Xdebug DBGP Protocol Debugging",
+          "default": false,
+          "type": "boolean",
+          "description": "Output received DBGP messsages to the Atom console",
+          "order": 5
+        },
+        "redirectStdout": {
+          "title": "Automatically redirect Stdout to the console",
+          "default": false,
+          "type": "boolean",
+          "description": "Output all PHP Stdout data to the console",
+          "order": 6
+        },
+        "redirectStderr": {
+          "title": "Automatically redirect Stderr to the console",
+          "default": false,
+          "type": "boolean",
+          "description": "Output all PHP Stderr data to the console",
+          "order": 7
+        }
+      }
+    },
+    "xdebug": {
+      "title": "Xdebug",
+      "type": "object",
+      "order": 2,
+      "properties": {
+        "maxDepth": {
+          "title": "Max Depth",
+          "default": 4,
+          "type": "integer",
+          "description": "",
+          "order": 1
+        },
+        "maxChildren": {
+          "title": "Max Children",
+          "default": 32,
+          "type": "integer",
+          "description": "",
+          "order": 2
+        },
+        "maxData": {
+          "title": "Max Data",
+          "default": 1024,
+          "type": "integer",
+          "description": "",
+          "order": 3
+        },
+        "pathMaps": {
+          "title": "Path Mappings",
+          "type": "string",
+          "default": "",
+          "description": "JSON Object of Path Mappings",
+          "order": 4
+        },
+        "projectScan": {
+          "title": "Automatically scan projects in Atom to try and find path maps",
+          "default": true,
+          "type": "boolean",
+          "description": "When a project has no path map set automatically look through all the projects in Atom to try and find a match",
+          "order": 5
+        },
+        "multipleSessions": {
+          "title": "Allow for multiple debug sessions at once",
+          "default": true,
+          "type": "boolean",
+          "description": "Allows PHP-Debug to handle multiple debug sessions at the same time",
+          "order": 6
+        }
+      }
+    },
+    "display": {
+      "title": "Display",
+      "type": "object",
+      "order": 3,
+      "properties": {
+        "arraySort": {
+          "title": "Sort Array/Object Elements Alphabetically",
+          "default": false,
+          "type": "boolean",
+          "description": "",
+          "order": 1
+        },
+        "enableStatusbarButtons": {
+          "title": "Allow PHP-Debug to be opened from the Atom status bar",
+          "default": true,
+          "type": "boolean",
+          "description": "",
+          "order": 2
+        },
+        "views": {
+          "title": "Views",
+          "type": "object",
+          "properties": {
+            "breakpoints": {
+              "title": "Breakpoints",
+              "default": true,
+              "type": "boolean",
+              "description": "Show breakpoints panel",
+              "order": 1
+            },
+            "watches": {
+              "title": "Watches",
+              "default": true,
+              "type": "boolean",
+              "description": "Show watches panel",
+              "order": 2
+            },
+            "context": {
+              "title": "Context",
+              "default": true,
+              "type": "boolean",
+              "description": "Show context panel",
+              "order": 3
+            },
+            "scope": {
+              "title": "Scope",
+              "default": true,
+              "type": "boolean",
+              "description": "Show scope panel",
+              "order": 5
+            }
+          }
+        }
+      }
+    },
+    "exceptions": {
+      "title": "Exceptions",
+      "type": "object",
+      "order": 4,
+      "properties": {
+        "fatalError": {
+          "title": "Fatal Errors",
+          "default": true,
+          "type": "boolean",
+          "description": "Break on fatal error exceptions",
+          "order": 1
+        },
+        "catchableFatalError": {
+          "title": "Catchable Fatal Errors",
+          "default": true,
+          "type": "boolean",
+          "description": "Break on catchable fatal error exceptions",
+          "order": 2
+        },
+        "warning": {
+          "title": "Warnings",
+          "default": true,
+          "type": "boolean",
+          "description": "Break on PHP warnings",
+          "order": 3
+        },
+        "strictStandards": {
+          "title": "Strict Standards",
+          "default": true,
+          "type": "boolean",
+          "description": "Break on strict standards messages",
+          "order": 4
+        },
+        "xdebug": {
+          "title": "Xdebug Exceptions",
+          "default": true,
+          "type": "boolean",
+          "description": "Break on xdebug messages",
+          "order": 5
+        },
+        "unknownError": {
+          "title": "Unknown Errors",
+          "default": true,
+          "type": "boolean",
+          "description": "Break on unknown errors",
+          "order": 6
+        },
+        "notice": {
+          "title": "Notice",
+          "default": true,
+          "type": "boolean",
+          "description": "Break on notice messages",
+          "order": 7
+        }
+      }
+    },
+    "noPackageInstallPrompt": {
+      "title": "Disabled Prompting to install Packages",
+      "description": "php-debug requires some third party packages, this disables prompting to install for them",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "order": 5
+    },
+    "showWelcome": {
+      "title": "Show welcome message for new version",
+      "description": "",
+      "type": "boolean",
+      "default": true,
+      "order": 6
+    },
+    "pathMapsSearchIgnore": {
+      "title": "Ignore paths during pathmaps search",
+      "description": "Comma separated list of paths to ignore during pathmaps search",
+      "type": "array",
+      "default": [
+        "!**/.git/**",
+        "!**/.*/**"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "order": 7
+    }
+  },
+  "consumedServices": {
+    "debug-ui": {
+      "versions": {
+        "0.1.0": "consumeDebugUI"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    }
+  },
+  "dependencies": {
+    "auto-bind-inheritance": "^1.0.6",
+    "compare-versions": "^3.1.0",
+    "etch": "^0.12.6",
+    "event-kit": "^1.0.3",
+    "fast-glob": "^2.2.1",
+    "fuzzaldrin": "^2.1.0",
+    "promise": "^8.0.1",
+    "q": "^1.1.2",
+    "uuid": "3.0.1",
+    "xml2js": ">= 0.4.6 < 0.5"
+  },
+  "deprecated": false,
+  "description": "A package for the Atom Text Editor for debugging PHP code using the XDebug extension",
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "homepage": "https://github.com/gwomacks/php-debug#readme",
+  "keywords": [
+    "php",
+    "phpdebug",
+    "php-debug",
+    "debugging",
+    "debugger",
+    "debug",
+    "xdebug"
+  ],
+  "license": "MIT",
+  "main": "./lib/php-debug",
+  "name": "php-debug",
+  "providedServices": {
+    "debug-engine": {
+      "versions": {
+        "0.1.0": "provideDebugEngineService"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwomacks/php-debug.git"
+  },
+  "version": "0.3.5"
+}
