@@ -173,13 +173,15 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 // namespace class
 // class class
 // function function
+// type class
 .syntax--punctuation.syntax--definition.syntax--array, .syntax--punctuation.syntax--definition.syntax--parameters, .syntax--punctuation.syntax--definition.syntax--string, .syntax--punctuation.syntax--definition.syntax--variable, .syntax--variable, .syntax--variable.syntax--language, .syntax--keyword.syntax--operator, .syntax--support.syntax--class,
 .syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class,
 .syntax--support.syntax--other.syntax--namespace.syntax--php,
 .syntax--storage.syntax--modifier.syntax--php,
 .syntax--storage.syntax--type.syntax--class.syntax--php,
 .syntax--storage.syntax--type.syntax--function.syntax--php,
-.syntax--meta.syntax--class {
+.syntax--meta.syntax--class,
+.syntax--storage.syntax--type.syntax--php {
     color: #75a7c8;
 }
 
@@ -206,7 +208,7 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 // if style
 // return style
 .syntax--keyword.syntax--control {
-    color: #239185;
+    color: #7cc4a3;
 }
 
 // => style
@@ -229,7 +231,7 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 .syntax--php.syntax--keyword.syntax--operator.syntax--assignment,
 .syntax--constant,
 .syntax--storage {
-    color: #fa5654;
+    color: #1c9587;
 }
 
 // ; style
@@ -241,4 +243,10 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 .syntax--string,
 .syntax--constant.syntax--numeric {
     color: white;
+}
+
+// indent line style
+atom-text-editor .indent-guide {
+    color: #2f373b;
+    opacity: 0.6;
 }
