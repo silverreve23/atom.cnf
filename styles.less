@@ -139,11 +139,6 @@ ul .tab{
 	overflow: scroll;
 }
 
-.texteditor.tab.sortable.active{
-    border: none;
-	border-bottom: 1px solid #b3d236;
-}
-
 .syntax--entity.syntax--name.syntax--function{
 	color: #8DC149;
 }
@@ -169,13 +164,11 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 // php syntax style
 
 // function style
-// quote style
 // namespace class
 // class class
 // function function
 // type class
 .syntax--punctuation.syntax--definition.syntax--array, .syntax--punctuation.syntax--definition.syntax--parameters, .syntax--punctuation.syntax--definition.syntax--string, .syntax--punctuation.syntax--definition.syntax--variable, .syntax--variable, .syntax--variable.syntax--language, .syntax--keyword.syntax--operator, .syntax--support.syntax--class,
-.syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class,
 .syntax--support.syntax--other.syntax--namespace.syntax--php,
 .syntax--storage.syntax--modifier.syntax--php,
 .syntax--storage.syntax--type.syntax--class.syntax--php,
@@ -193,21 +186,47 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 }
 
 
+// bracket left class style
+// bracket right class style
+// bracket left construction style
+// bracket right construction style
+// carly bracket start construction style
+// carly bracket end construction style
 // object name style
 // class name style
 // method object style
 // option object style
+// property object js style
+// property object chain js style
+// methon object chain js style
+// property object in construction js style
+// const js name
+// variable js name
+.syntax--punctuation.syntax--definition.syntax--parameters.syntax--begin.syntax--bracket.syntax--round.syntax--php,
+.syntax--punctuation.syntax--definition.syntax--parameters.syntax--end.syntax--bracket.syntax--round.syntax--php,
+.syntax--punctuation.syntax--definition.syntax--arguments.syntax--begin.syntax--bracket.syntax--round.syntax--php,
+.syntax--punctuation.syntax--definition.syntax--arguments.syntax--end.syntax--bracket.syntax--round.syntax--php,
+.syntax--punctuation.syntax--definition.syntax--begin.syntax--bracket.syntax--curly.syntax--php,
+.syntax--punctuation.syntax--definition.syntax--end.syntax--bracket.syntax--curly.syntax--php,
 .syntax--support.syntax--class.syntax--php,
 .syntax--entity.syntax--name.syntax--type.syntax--class.syntax--php,
 .syntax--variable.syntax--other.syntax--property.syntax--php,
 .syntax--support.syntax--function,
-.syntax--entity.syntax--name.syntax--function {
-    color: #82AAFF;
+.syntax--entity.syntax--name.syntax--function,
+.syntax--variable.syntax--other.syntax--object.syntax--property.syntax--js,
+.syntax--variable.syntax--other.syntax--property.syntax--js,
+.syntax--support.syntax--variable.syntax--property.syntax--dom.syntax--js,
+.syntax--source.syntax--js.syntax--embedded.syntax--html,
+.syntax--js.syntax--constant,
+.syntax--js.syntax--variable.syntax--other.syntax--object {
+    color: #127886;
 }
 
 // if style
 // return style
-.syntax--keyword.syntax--control {
+// new style
+.syntax--keyword.syntax--control,
+.syntax--keyword {
     color: #7cc4a3;
 }
 
@@ -221,7 +240,7 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 .syntax--keyword.syntax--operator.syntax--ternary.syntax--php,
 .syntax--punctuation.syntax--terminator.syntax--statement.syntax--php,
 .syntax--keyword.syntax--operator.syntax--class.syntax--php {
-    color: white !important;
+    color: #127886 !important;
 }
 
 // variable style
