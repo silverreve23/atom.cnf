@@ -17,7 +17,7 @@
       "atom-material-syntax"
     ]
   editor:
-    fontSize: 18
+    fontSize: 22
     showIndentGuide: true
     tabLength: 4
     tabType: "soft"

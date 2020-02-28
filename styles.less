@@ -126,10 +126,10 @@ ul .tab{
     background-color: red;
 }
 .editor{
-    line-height: 34px;
+    line-height: 40px;
 }
 .cursor{
-    height: 20px !important; margin-top: 7px;
+    height: 20px !important; margin-top: 10px;
 }
 
 .tab-bar .tab::before{
@@ -185,7 +185,9 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
     color: #80abfd;
 }
 
-
+// bracket array style
+// bracket left oblect style
+// bracket right oblect style
 // bracket left class style
 // bracket right class style
 // bracket left construction style
@@ -202,6 +204,9 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 // property object in construction js style
 // const js name
 // variable js name
+.syntax--punctuation.syntax--section.syntax--array,
+.syntax--punctuation.syntax--definition.syntax--begin.syntax--bracket.syntax--round.syntax--php,
+.syntax--punctuation.syntax--definition.syntax--end.syntax--bracket.syntax--round.syntax--php,
 .syntax--punctuation.syntax--definition.syntax--parameters.syntax--begin.syntax--bracket.syntax--round.syntax--php,
 .syntax--punctuation.syntax--definition.syntax--parameters.syntax--end.syntax--bracket.syntax--round.syntax--php,
 .syntax--punctuation.syntax--definition.syntax--arguments.syntax--begin.syntax--bracket.syntax--round.syntax--php,
@@ -261,11 +266,11 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 // number style
 .syntax--string,
 .syntax--constant.syntax--numeric {
-    color: white;
+    color: #8addf2;
 }
 
 // indent line style
 atom-text-editor .indent-guide {
     color: #2f373b;
-    opacity: 0.6;
+    opacity: 0.5;
 }

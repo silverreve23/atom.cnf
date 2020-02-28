@@ -1,677 +1,164 @@
+[31m[2020-02-28 14:54:54.881] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:15.334] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:28.131] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:31.245] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:36.900] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:37.888] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:38.735] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:39.164] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:41.571] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:46.587] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:55:49.670] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 14:56:03.090] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 15:40:41.152] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 15:40:43.106] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:43:44.212] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:43:46.839] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:43:48.355] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:43:48.956] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:52:59.513] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:53:13.439] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:53:58.492] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:54:01.577] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:54:02.529] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
 Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
-[31m[2020-02-13 12:48:33.936] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:48:34.555] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:48:39.786] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:49:29.215] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:49:53.032] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:49:59.762] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:05.284] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:08.353] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:09.614] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:25.207] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:43.216] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:44.381] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:49.214] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:53.835] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:57.518] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:50:58.432] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:09.200] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:10.535] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:12.093] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:15.841] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:18.919] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:27.750] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:37.277] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:46.864] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:47.510] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:50.180] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:51:50.758] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:01.983] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:05.893] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:08.595] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:28.536] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:43.453] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:48.413] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:49.247] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:51.879] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:58.569] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:52:59.215] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:00.103] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:00.812] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:15.512] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:16.916] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:23.404] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:35.283] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:55.048] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:55.701] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:56.122] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:53:57.048] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:10.461] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:11.216] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:13.059] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:13.929] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:18.241] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:30.311] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:31.046] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:31.423] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:32.993] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:37.531] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:59.052] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:54:59.752] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:55:00.416] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:55:00.799] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:55:25.553] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:55:45.991] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:55:54.400] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:55:56.295] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:55:56.946] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:55:59.500] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:56:10.433] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:56:13.032] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:56:27.579] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:56:32.540] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:56:33.043] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:56:49.628] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:56:50.729] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:56:53.483] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:57:24.665] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:57:25.679] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:57:48.517] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:58:05.684] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:58:07.036] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:58:07.901] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:58:09.302] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:58:11.221] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:10.262] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:17.746] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:25.449] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:28.887] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:36.611] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:48.482] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:48.994] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:50.402] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:51.061] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 12:59:51.653] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:01:40.534] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:01:41.051] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:01:41.352] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:01:44.312] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:01:46.635] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:01:47.285] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:01:47.815] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:01:51.922] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:02:09.762] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:02:10.691] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:02:18.269] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:03:50.832] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:04:32.315] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:04:36.199] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:04:55.433] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:04:57.033] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:04:58.402] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:05:13.557] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:06:15.583] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:06:44.623] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[2841:0213/130745.668427:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[31m[2020-02-13 13:08:23.292] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:24.995] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:32.002] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:35.468] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:37.985] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:39.985] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:41.300] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:42.137] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:44.055] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:45.820] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:47.301] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:51.170] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:51.547] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:52.185] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:53.593] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:14:54.751] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:15:00.200] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:15:05.658] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:15:11.153] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:15:13.594] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:15:15.657] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:15:27.637] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:16:34.366] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:16:38.729] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:17:50.954] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:20:22.444] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:21:52.814] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:21:53.545] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:23:30.780] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:24:07.128] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:24:48.539] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:24:52.446] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:26:30.729] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:26:39.234] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:26:40.202] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:27:25.569] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:27:29.251] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:29:38.043] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:32:24.551] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 13:32:26.365] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:38:52.726] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:38:55.039] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:40:32.012] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:40:37.555] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:49:18.789] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:49:27.715] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:49:32.107] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:49:52.141] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:50:02.188] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:50:07.591] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:50:39.927] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:54:43.049] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:54:51.428] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:54:52.321] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:54:53.823] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:54:54.555] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:03.566] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:04.582] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:06.152] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:31.630] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:31.990] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:32.461] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:33.661] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:34.792] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:43.235] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:44.044] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:45.431] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:46.516] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:56:48.306] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:57:21.387] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:58:03.672] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:58:05.264] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:58:05.812] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:58:09.288] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:05.930] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:08.739] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:16.944] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:22.647] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:24.768] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:25.448] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:28.317] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:33.840] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:47.051] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:47.532] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:48.996] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:50.067] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 14:59:51.328] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:06.365] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:16.095] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:16.694] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:17.727] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:18.529] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:18.891] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:29.430] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:30.134] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:43.297] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:00:43.656] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:01:01.079] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:01:06.935] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:01:09.843] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:01:29.131] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:01:29.501] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:01:39.027] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:01:39.475] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:01:41.431] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:02:58.550] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:02:59.440] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:03:03.196] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:05:29.846] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:05:36.312] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:00.748] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:03.980] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:06.414] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:10.719] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:12.837] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:14.084] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:14.950] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:21.485] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:26.801] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:27.306] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:06:28.249] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:09:02.497] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:09:05.311] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:09:06.910] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:09:08.181] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:09:48.751] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:09:53.388] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:10:04.307] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:10:05.863] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:10:22.244] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:10:37.784] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:10:41.282] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:10:58.930] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:11:08.126] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:11:08.684] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:11:18.951] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:11:35.334] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:11:35.930] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:11:38.615] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:11:51.809] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:11:52.418] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:11:59.477] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:13:25.047] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:15:43.564] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:15:44.762] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:15:45.667] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:17:55.566] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:18:07.902] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:18:50.588] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:19:01.299] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:20:09.178] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:20:10.390] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:20:27.945] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:22:25.816] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:22:28.045] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:22:58.392] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:22:59.833] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:23:00.286] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:23:09.963] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:23:22.501] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:23:23.103] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:23:24.096] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:23:25.083] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:23:26.117] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:23:28.416] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:23:29.512] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:24:02.158] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:24:40.512] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:24:40.849] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:25:05.737] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:25:07.856] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:25:08.353] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:26:13.225] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:26:15.777] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:26:16.671] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:26:16.966] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:26:18.301] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:27:21.286] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:27:26.443] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:27:54.518] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:27:55.435] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:28:10.310] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:28:11.848] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:28:12.328] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:28:25.551] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:28:35.635] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:28:36.826] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:28:37.363] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:28:53.155] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:28:57.233] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:29:00.403] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:29:00.868] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:29:14.599] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:29:15.855] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:29:19.655] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:29:27.064] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:29:32.223] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:29:33.449] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:30:07.638] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:30:08.935] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:30:09.347] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:30:15.621] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:06.705] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:08.323] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:15.587] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:17.894] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:21.564] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:22.630] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:36.064] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:38.822] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:55.031] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:57.377] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:31:59.640] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:32:05.933] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:32:15.251] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:32:23.151] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:32:53.025] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:32:53.453] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:33:31.594] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:33:49.788] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:34:21.808] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:34:35.638] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:34:42.998] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:34:55.414] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:35:00.602] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:35:02.313] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:35:02.687] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:35:39.134] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:35:44.248] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:36:09.040] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:36:09.430] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:36:16.284] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:36:20.088] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:36:51.633] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:36:55.053] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:38:13.701] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:38:14.887] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:38:23.981] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:38:47.671] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:38:48.963] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:38:50.851] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:38:57.028] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:39:04.572] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:39:05.214] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:39:06.980] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:39:08.102] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:39:21.213] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:39:45.398] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:39:49.312] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:39:51.768] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:40:03.570] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:40:04.436] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:40:04.701] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:40:06.072] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:40:08.537] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:40:09.021] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:40:22.820] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:40:23.187] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:41:11.387] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:45:57.526] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:45:58.873] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:46:06.577] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:46:18.690] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:46:32.809] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:46:33.877] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:47:18.380] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 15:47:18.871] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:09:09.261] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:11:34.783] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:11:41.250] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:11:41.972] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:11:43.672] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:11:50.087] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:11:53.172] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:11:54.418] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:11:57.302] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:12:04.303] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:12:25.068] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:12:25.829] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:12:26.495] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:12:27.881] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:12:30.421] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:12:34.337] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:12:52.223] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:12:56.934] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:13:10.654] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:13:11.563] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:47:20.155] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:47:22.112] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:47:24.779] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:47:27.312] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:47:28.419] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:47:32.567] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:47:33.528] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:47:48.759] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:48:35.159] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:48:36.008] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:48:46.896] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:48:47.895] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:48:49.692] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:48:50.391] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:48:51.359] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:48:58.429] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:00.705] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:04.393] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:10.479] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:11.376] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:16.026] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:17.113] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:17.992] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:20.726] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:23.155] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:24.276] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:26.735] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:32.988] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:41.026] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:49:43.959] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:09.161] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:10.692] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:11.604] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:18.661] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:19.511] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:26.173] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:28.980] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:34.547] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:36.211] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:50:36.942] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:51:23.411] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:51:24.026] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:51:25.030] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[31m[2020-02-13 16:51:27.011] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
-[2841:0213/175644.560787:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175644.569962:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175644.570003:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175731.097084:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175731.097258:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175731.097988:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175731.098387:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175731.098526:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175731.099300:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175731.099656:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175856.416138:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175856.955062:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175856.956611:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175856.956671:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175856.956682:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175856.956702:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175856.956710:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175856.956720:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175857.444168:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[2841:0213/175857.444423:ERROR:CONSOLE(906)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
-    at SDK.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4168:91)
-    at SDK.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4219:60)
-    at Protocol.InspectorBackend._DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3195:26)
-    at SDK.Target._onMessage (chrome-devtools://devtools/bundled/inspector.js:3149:31)
-    at SDK.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3344:41)
-    at Common.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:472:23)
-    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:906:98)
-    at Host.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:906:1)
-    at DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (chrome-devtools://devtools/bundled/devtools_compatibility.js:57:36)
-    at DevToolsAPIImpl.dispatchMessage (chrome-devtools://devtools/bundled/devtools_compatibility.js:134:12)", source: chrome-devtools://devtools/bundled/inspector.js (906)
-[31m[2020-02-13 17:59:29.843] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:54:21.868] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:55:25.576] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:55:25.623] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:55:47.129] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:56:01.084] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:56:53.910] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:56:54.659] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:56:55.801] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 16:56:59.603] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 17:02:51.288] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 17:02:52.189] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 17:02:52.721] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 17:02:54.015] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 17:02:59.395] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 17:03:00.647] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 17:04:16.843] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 17:04:23.735] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 17:04:24.735] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 17:05:33.380] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 17:05:47.201] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 17:06:09.543] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 17:06:18.391] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 17:06:19.083] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 18:14:30.033] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 18:14:39.004] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 18:14:53.657] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:15:29.568] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:15:30.437] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:16:10.526] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:16:14.912] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:16:15.609] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:16:16.041] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:16:21.145] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 18:17:50.615] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 18:17:59.219] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:27:07.651] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:27:37.976] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:27:39.011] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 18:37:45.885] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:37:54.285] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 18:42:22.048] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient undefined
+[31m[2020-02-28 18:42:32.214] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+[31m[2020-02-28 18:44:40.698] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[31m[2020-02-28 19:19:45.785] [ERROR] datatip - [39mError getting datatip from provider PHPDebugLanguageClient { TypeError: Cannot read property 'hasOwnProperty' of undefined
+    at PHPDebugEngine.hasContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:102:34)
+    at PHPDebugEngine.tryGetContext (/home/sbk/.atom/packages/php-debug/lib/engines/dbgp/engine.js:147:16)
+    at /home/sbk/.atom/packages/php-debug/lib/php-debug.js:372:47
+    at <anonymous>
+  rawStack: [ CallSite {}, CallSite {}, CallSite {}, CallSite {} ] }

@@ -1,0 +1,51 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-alignment/versions/0.13.0/tarball",
+  "_id": "atom-alignment@0.13.0",
+  "_inBundle": false,
+  "_integrity": "sha512-tIbDjm/DGiZhBJ/aGeMzT30smM2FihmEBMku5voA3+5GMR+uyacf6jWkgD1xP/URvTKGLmQ/NvuYTrp8q/IVkQ==",
+  "_location": "/atom-alignment",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-alignment/versions/0.13.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-alignment/versions/0.13.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-alignment/versions/0.13.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-alignment/versions/0.13.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-alignment/versions/0.13.0/tarball",
+  "_shasum": "ae1f722a3e08fac3b2e0fb26fe2fa40b8cbdfc33",
+  "_spec": "https://www.atom.io/api/packages/atom-alignment/versions/0.13.0/tarball",
+  "_where": "/tmp/apm-install-dir-120117-7122-154vcaa.pvkb",
+  "activationCommands": {
+    "atom-workspace": [
+      "atom-alignment:align",
+      "atom-alignment:alignMultiple"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/Freyskeyd/atom-alignment/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "deprecated": false,
+  "description": "A simple key-binding for aligning multi-line and multiple selections in Atom (Based on the sublime text plugin)",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/Freyskeyd/atom-alignment#readme",
+  "license": "MIT",
+  "main": "./lib/atom-alignment",
+  "name": "atom-alignment",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freyskeyd/atom-alignment.git"
+  },
+  "version": "0.13.0"
+}
