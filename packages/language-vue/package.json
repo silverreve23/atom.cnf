@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/language-vue/versions/0.25.0/tarball",
-  "_id": "language-vue@0.25.0",
+  "_from": "https://www.atom.io/api/packages/language-vue/versions/0.26.0/tarball",
+  "_id": "language-vue@0.26.0",
   "_inBundle": false,
-  "_integrity": "sha512-jOZlL21dPwHGPZSP6ybujwWj1pfi7HTyc5Hdk39YFgzCPVI77rgub9Ifil5seDfLWL3FM2larQ6cE+RJOM3MpA==",
+  "_integrity": "sha512-AxyUoCdZdZPls4vszsa/rH+/i8/R44tSedk3rL7v/ig2PdVC2P+m/EL/RvNehKHCR/G3otSzdMuAWBuHBr4yyA==",
   "_location": "/language-vue",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/language-vue/versions/0.25.0/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/language-vue/versions/0.25.0/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/language-vue/versions/0.25.0/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/language-vue/versions/0.25.0/tarball"
+    "raw": "https://www.atom.io/api/packages/language-vue/versions/0.26.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-vue/versions/0.26.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-vue/versions/0.26.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-vue/versions/0.26.0/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/language-vue/versions/0.25.0/tarball",
-  "_shasum": "0c1091301b6d8e0b76b2323408de1a65ec16bd31",
-  "_spec": "https://www.atom.io/api/packages/language-vue/versions/0.25.0/tarball",
-  "_where": "/tmp/apm-install-dir-11979-11062-68dxp1.7khib",
+  "_resolved": "https://www.atom.io/api/packages/language-vue/versions/0.26.0/tarball",
+  "_shasum": "add58ecc29257149d2cf66d6453cd25ccc22fe70",
+  "_spec": "https://www.atom.io/api/packages/language-vue/versions/0.26.0/tarball",
+  "_where": "/tmp/apm-install-dir-12023-11766-ikedcl.mqkj",
   "bugs": {
     "url": "https://github.com/hedefalk/atom-vue/issues"
   },
@@ -37,5 +37,5 @@
     "type": "git",
     "url": "git+https://github.com/hedefalk/atom-vue.git"
   },
-  "version": "0.25.0"
+  "version": "0.26.0"
 }

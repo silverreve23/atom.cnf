@@ -1,0 +1,49 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-graphql/versions/1.0.0/tarball",
+  "_id": "language-graphql@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-TYR0YilD2iH2/ZBYYBCiHTLtDSUIdr+6C0lm/WrBMI01VKrhTQKbs34uZlqNKJnMYruypY5hi9ylV085szLkkg==",
+  "_location": "/language-graphql",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-graphql/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-graphql/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-graphql/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-graphql/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-graphql/versions/1.0.0/tarball",
+  "_shasum": "08163aec6aab904cf0779f803b2ee4a55250f6d7",
+  "_spec": "https://www.atom.io/api/packages/language-graphql/versions/1.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-12027-6312-umx6wt.1lai",
+  "bugs": {
+    "url": "https://github.com/rmosolgo/language-graphql/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Syntax highlighting for GraphQL queries",
+  "devDependencies": {
+    "atom-grammar-test": "^0.6.3"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/rmosolgo/language-graphql#readme",
+  "keywords": [
+    "language",
+    "grammar",
+    "graphql",
+    "atom"
+  ],
+  "license": "MIT",
+  "name": "language-graphql",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmosolgo/language-graphql.git"
+  },
+  "version": "1.0.0"
+}

@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
-  "_id": "pinned-tabs@2.1.1",
+  "_from": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.2/tarball",
+  "_id": "pinned-tabs@2.1.2",
   "_inBundle": false,
-  "_integrity": "sha512-Dio5lK2LraJO4RWwEMW93OfurSI7VP1H3zegf1IV+ZasvqAu8A40wOsKNoqpe2HTHV8GBoFaTo8f7DsDrE6sCA==",
+  "_integrity": "sha512-nK9z9HyNNiCVE8F+nZCT6fu8wWw3AXvcf7q+ZtVSMtoxKKk9enbvwHO+VUSiumRnuDh7nrcBrPH9vzVE+nC7BA==",
   "_location": "/pinned-tabs",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball"
+    "raw": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.2/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
-  "_shasum": "f56010d75816fdb3718db8e9f694d9c1a0b7ce7e",
-  "_spec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.1/tarball",
-  "_where": "/tmp/apm-install-dir-119128-9212-qq9mdc.ceyf",
+  "_resolved": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.2/tarball",
+  "_shasum": "9ae4c4391ceca61eb21818b5ae763ac950fec13f",
+  "_spec": "https://www.atom.io/api/packages/pinned-tabs/versions/2.1.2/tarball",
+  "_where": "/tmp/apm-install-dir-12023-11789-1wzv19y.kn1t",
   "atomTestRunner": "atom-mocha",
   "bugs": {
     "url": "https://github.com/ericcornelissen/pinned-tabs-for-atom/issues"
@@ -82,22 +82,16 @@
       }
     }
   },
+  "dependencies": {},
   "deprecated": false,
   "description": "An Atom package that allows you to pin tabs",
   "devDependencies": {
-    "atom-coverage": "^1.1.2",
-    "atom-mocha": "^2.0.7",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-plugin-istanbul": "^5.1.0",
-    "babel-preset-env": "^1.7.0",
-    "cross-env": "^5.2.0",
+    "atom-mocha": "^2.2.1",
     "eslint": "^4.10.0",
-    "husky": "^0.14.3",
-    "nyc": "^13.1.0",
+    "husky": "^4.2.3",
     "rimraf": "^2.6.2",
     "sinon": "^6.3.5",
-    "sinon-chai": "^3.2.0"
+    "sinon-chai": "^3.5.0"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -116,12 +110,8 @@
     "url": "git+ssh://git@github.com/ericcornelissen/pinned-tabs-for-atom.git"
   },
   "scripts": {
-    "check:coverage": "nyc check-coverage",
-    "clean": "rimraf coverage/ .nyc_output/",
     "lint": "eslint lib/*.js spec/*.js",
-    "precommit": "npm run lint",
-    "test": "atom --test spec",
-    "test:coverage": "atom-coverage"
+    "test": "atom --test spec"
   },
-  "version": "2.1.1"
+  "version": "2.1.2"
 }

@@ -1,5 +1,5 @@
+### Project specific config ###
 language: generic
-dist: trusty
 
 env:
   global:
@@ -12,8 +12,8 @@ env:
 
 os:
   - linux
-  - osx
 
+### Generic setup follows ###
 script:
   - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
   - chmod u+x build-package.sh
@@ -24,10 +24,19 @@ notifications:
     on_success: never
     on_failure: change
 
+branches:
+  only:
+    - master
+
+git:
+  depth: 10
+
+sudo: false
+
 addons:
   apt:
     packages:
     - build-essential
-    - fakeroot
     - git
-    - libsecret-1-dev
+    - libgnome-keyring-dev
+    - fakeroot
