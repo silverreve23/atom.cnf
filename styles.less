@@ -48,7 +48,7 @@ atom-text-editor, html{
     atom-text-editor-minimap{
         opacity: 1 !important;
         .minimap-visible-area{
-            opacity: 0.8;
+            opacity: 0.9;
         }
     }
 }
@@ -56,6 +56,11 @@ atom-text-editor, html{
 atom-text-editor-minimap{
     opacity: 1 !important;
     width: 200px !important;
+}
+
+atom-text-editor atom-text-editor-minimap .minimap-visible-area::after,
+html atom-text-editor-minimap .minimap-visible-area::after{
+    background-color: rgba(238, 255, 255, 0.4);
 }
 
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap&subset=latin-ext,vietnamese');
@@ -204,7 +209,6 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 // carly bracket end construction style
 // object name style
 // class name style
-// method object style
 // option object style
 // property object js style
 // property object chain js style
@@ -224,7 +228,6 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 .syntax--support.syntax--class.syntax--php,
 .syntax--entity.syntax--name.syntax--type.syntax--class.syntax--php,
 .syntax--variable.syntax--other.syntax--property.syntax--php,
-.syntax--support.syntax--function,
 .syntax--entity.syntax--name.syntax--function,
 .syntax--variable.syntax--other.syntax--object.syntax--property.syntax--js,
 .syntax--variable.syntax--other.syntax--property.syntax--js,
@@ -233,6 +236,12 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 .syntax--js.syntax--constant,
 .syntax--js.syntax--variable.syntax--other.syntax--object {
     color: #127886;
+}
+
+// method object style
+.syntax--meta.syntax--function.syntax--php .syntax--entity.syntax--name.syntax--function.syntax--php,
+.syntax--support.syntax--function {
+    color: #81d9be;
 }
 
 // if style
